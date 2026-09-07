@@ -1,0 +1,37 @@
+{
+  "pair_count": 500,
+  "unique_front_images": 427,
+  "unique_rear_images": 417,
+  "unique_target_masks": 476,
+  "rendered_inputs": 1500,
+  "pair_bearing_source_videos": 20,
+  "evaluation_candidate_count_distribution": {
+    "3": 38,
+    "4": 53,
+    "5": 74,
+    "6": 87,
+    "7": 80,
+    "8": 60,
+    "9": 40,
+    "10": 35,
+    "11": 22,
+    "12": 6,
+    "13": 2,
+    "14": 1,
+    "15": 2
+  },
+  "paper_vehicle_candidate_count_distribution": {
+    "3": 45,
+    "4": 69,
+    "5": 94,
+    "6": 103,
+    "7": 76,
+    "8": 59,
+    "9": 33,
+    "10": 10,
+    "11": 8,
+    "13": 1,
+    "14": 2
+  },
+  "paper_gallery_count_discrepancies": 164
+}

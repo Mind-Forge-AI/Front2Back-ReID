@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use AsymOvertake-ReID, please cite the paper and repository."
+title: "AsymOvertake-ReID: Low-Resource Asymmetric Vehicle Re-Identification and Spatial Reasoning"
+authors:
+  - family-names: Motsoehli
+    given-names: Moseli
+version: 0.4.0
+license: MIT
+keywords:
+  - vehicle re-identification
+  - foundation models
+  - spatial reasoning
+  - stereo depth
+  - low-resource ADAS

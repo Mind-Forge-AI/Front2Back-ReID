@@ -1,0 +1,500 @@
+{"pair_id": "P0001", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_09_18_53_11_b5329d02_f000926_rl_truck_002"}
+{"pair_id": "P0002", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_09_18_53_11_b5329d02_f000929_rl_truck_001"}
+{"pair_id": "P0003", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_09_18_53_11_b5329d02_f000960_rl_truck_001"}
+{"pair_id": "P0004", "correct_candidate_id": "C3", "correct_detection_id": "2026_02_09_18_53_11_b5329d02_f000960_rl_truck_002"}
+{"pair_id": "P0005", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_09_18_53_11_b5329d02_f001889_rl_truck_001"}
+{"pair_id": "P0006", "correct_candidate_id": "C3", "correct_detection_id": "2026_02_09_18_53_11_b5329d02_f001889_rl_car_002"}
+{"pair_id": "P0007", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_09_18_53_11_b5329d02_f001889_rl_truck_001"}
+{"pair_id": "P0008", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_09_18_53_11_b5329d02_f002225_rl_truck_008"}
+{"pair_id": "P0009", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_09_18_53_11_b5329d02_f002814_rl_truck_002"}
+{"pair_id": "P0010", "correct_candidate_id": "C3", "correct_detection_id": "2026_02_09_18_53_11_b5329d02_f002864_rl_car_005"}
+{"pair_id": "P0011", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_10_22_11_01_aae7f50b_f000024_rl_truck_003"}
+{"pair_id": "P0012", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_10_22_11_01_aae7f50b_f000058_rl_truck_003"}
+{"pair_id": "P0013", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_19_09_45_44_a7db1ffb_f000406_rl_truck_002"}
+{"pair_id": "P0014", "correct_candidate_id": "C4", "correct_detection_id": "2026_02_19_09_45_44_a7db1ffb_f000455_rl_truck_005"}
+{"pair_id": "P0015", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_19_09_45_44_a7db1ffb_f000428_rl_car_003"}
+{"pair_id": "P0016", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_19_09_45_44_a7db1ffb_f000443_rl_car_003"}
+{"pair_id": "P0017", "correct_candidate_id": "C5", "correct_detection_id": "2026_02_19_09_45_44_a7db1ffb_f000455_rl_car_004"}
+{"pair_id": "P0018", "correct_candidate_id": "C5", "correct_detection_id": "2026_02_19_09_45_44_a7db1ffb_f000455_rl_car_004"}
+{"pair_id": "P0019", "correct_candidate_id": "C3", "correct_detection_id": "2026_02_19_09_45_44_a7db1ffb_f000447_rl_car_005"}
+{"pair_id": "P0020", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_19_09_46_33_5e8a0f05_f000181_rl_car_001"}
+{"pair_id": "P0021", "correct_candidate_id": "C4", "correct_detection_id": "2026_02_19_09_46_33_5e8a0f05_f000184_rl_car_006"}
+{"pair_id": "P0022", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_19_09_46_33_5e8a0f05_f000192_rl_car_001"}
+{"pair_id": "P0023", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_19_09_46_33_5e8a0f05_f000145_rl_car_003"}
+{"pair_id": "P0024", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_19_09_46_33_5e8a0f05_f000181_rl_car_001"}
+{"pair_id": "P0025", "correct_candidate_id": "C3", "correct_detection_id": "2026_02_19_09_46_33_5e8a0f05_f000178_rl_car_001"}
+{"pair_id": "P0026", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_19_09_46_33_5e8a0f05_f000178_rl_delivery van_010"}
+{"pair_id": "P0027", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_19_09_46_33_5e8a0f05_f000184_rl_delivery van_009"}
+{"pair_id": "P0028", "correct_candidate_id": "C3", "correct_detection_id": "2026_02_19_09_46_33_5e8a0f05_f000178_rl_car_001"}
+{"pair_id": "P0029", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_19_09_46_33_5e8a0f05_f000426_rl_car_002"}
+{"pair_id": "P0030", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_19_09_46_33_5e8a0f05_f000448_rl_truck_001"}
+{"pair_id": "P0031", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_19_09_46_33_5e8a0f05_f000576_rl_car_001"}
+{"pair_id": "P0032", "correct_candidate_id": "C4", "correct_detection_id": "2026_02_19_09_46_33_5e8a0f05_f000506_rl_truck_004"}
+{"pair_id": "P0033", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_19_09_46_33_5e8a0f05_f000587_rl_car_001"}
+{"pair_id": "P0034", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_19_09_46_33_5e8a0f05_f000606_rl_truck_001"}
+{"pair_id": "P0035", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_19_09_49_09_80024d6c_f000579_rl_car_002"}
+{"pair_id": "P0036", "correct_candidate_id": "C4", "correct_detection_id": "2026_02_19_09_49_09_80024d6c_f000868_rl_car_002"}
+{"pair_id": "P0037", "correct_candidate_id": "C5", "correct_detection_id": "2026_02_19_09_49_09_80024d6c_f000925_rl_car_002"}
+{"pair_id": "P0038", "correct_candidate_id": "C8", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f000094_rl_truck_009"}
+{"pair_id": "P0039", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f000028_rl_car_005"}
+{"pair_id": "P0040", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f000029_rl_car_005"}
+{"pair_id": "P0041", "correct_candidate_id": "C11", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f000096_rl_truck_002"}
+{"pair_id": "P0042", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f000075_rl_truck_003"}
+{"pair_id": "P0043", "correct_candidate_id": "C4", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f000012_rl_car_006"}
+{"pair_id": "P0044", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f000082_rl_truck_011"}
+{"pair_id": "P0045", "correct_candidate_id": "C6", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f000280_rl_car_005"}
+{"pair_id": "P0046", "correct_candidate_id": "C6", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f000280_rl_car_005"}
+{"pair_id": "P0047", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f000221_rl_truck_001"}
+{"pair_id": "P0048", "correct_candidate_id": "C11", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f000355_rl_truck_004"}
+{"pair_id": "P0049", "correct_candidate_id": "C7", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f000366_rl_car_004"}
+{"pair_id": "P0050", "correct_candidate_id": "C7", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f000363_rl_car_002"}
+{"pair_id": "P0051", "correct_candidate_id": "C8", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f001097_rl_car_001"}
+{"pair_id": "P0052", "correct_candidate_id": "C13", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f001142_rl_car_001"}
+{"pair_id": "P0053", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f001116_rl_truck_001"}
+{"pair_id": "P0054", "correct_candidate_id": "C5", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f001132_rl_truck_003"}
+{"pair_id": "P0055", "correct_candidate_id": "C9", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f001205_rl_car_004"}
+{"pair_id": "P0056", "correct_candidate_id": "C11", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f001205_rl_truck_002"}
+{"pair_id": "P0057", "correct_candidate_id": "C8", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f001218_rl_truck_006"}
+{"pair_id": "P0058", "correct_candidate_id": "C8", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f001282_rl_car_001"}
+{"pair_id": "P0059", "correct_candidate_id": "C7", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f001282_rl_car_003"}
+{"pair_id": "P0060", "correct_candidate_id": "C8", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f001313_rl_truck_007"}
+{"pair_id": "P0061", "correct_candidate_id": "C9", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f001313_rl_truck_008"}
+{"pair_id": "P0062", "correct_candidate_id": "C3", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f001543_rl_car_001"}
+{"pair_id": "P0063", "correct_candidate_id": "C4", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f001616_rl_truck_002"}
+{"pair_id": "P0064", "correct_candidate_id": "C5", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f001638_rl_car_001"}
+{"pair_id": "P0065", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f001624_rl_truck_003"}
+{"pair_id": "P0066", "correct_candidate_id": "C8", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f001645_rl_truck_008"}
+{"pair_id": "P0067", "correct_candidate_id": "C5", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f001697_rl_car_006"}
+{"pair_id": "P0068", "correct_candidate_id": "C8", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f001900_rl_car_002"}
+{"pair_id": "P0069", "correct_candidate_id": "C5", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f001933_rl_delivery van_004"}
+{"pair_id": "P0070", "correct_candidate_id": "C7", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f001929_rl_delivery van_004"}
+{"pair_id": "P0071", "correct_candidate_id": "C4", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f002033_rl_car_002"}
+{"pair_id": "P0072", "correct_candidate_id": "C6", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f002096_rl_car_005"}
+{"pair_id": "P0073", "correct_candidate_id": "C7", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f002259_rl_car_001"}
+{"pair_id": "P0074", "correct_candidate_id": "C5", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f002328_rl_car_002"}
+{"pair_id": "P0075", "correct_candidate_id": "C4", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f002343_rl_car_002"}
+{"pair_id": "P0076", "correct_candidate_id": "C5", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f002321_rl_car_003"}
+{"pair_id": "P0077", "correct_candidate_id": "C5", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f002554_rl_car_007"}
+{"pair_id": "P0078", "correct_candidate_id": "C8", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f002763_rl_car_001"}
+{"pair_id": "P0079", "correct_candidate_id": "C7", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f002763_rl_delivery van_007"}
+{"pair_id": "P0080", "correct_candidate_id": "C8", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f002765_rl_delivery van_007"}
+{"pair_id": "P0081", "correct_candidate_id": "C9", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f002770_rl_delivery van_011"}
+{"pair_id": "P0082", "correct_candidate_id": "C3", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f003001_rl_truck_001"}
+{"pair_id": "P0083", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f003070_rl_truck_001"}
+{"pair_id": "P0084", "correct_candidate_id": "C5", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f003183_rl_car_002"}
+{"pair_id": "P0085", "correct_candidate_id": "C4", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f003277_rl_car_003"}
+{"pair_id": "P0086", "correct_candidate_id": "C6", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f003513_rl_car_001"}
+{"pair_id": "P0087", "correct_candidate_id": "C3", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f003787_rl_car_001"}
+{"pair_id": "P0088", "correct_candidate_id": "C6", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f004148_rl_truck_002"}
+{"pair_id": "P0089", "correct_candidate_id": "C7", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f004165_rl_truck_004"}
+{"pair_id": "P0090", "correct_candidate_id": "C7", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f004381_rl_car_007"}
+{"pair_id": "P0091", "correct_candidate_id": "C7", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f004314_rl_car_002"}
+{"pair_id": "P0092", "correct_candidate_id": "C6", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f004314_rl_car_001"}
+{"pair_id": "P0093", "correct_candidate_id": "C6", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f004306_rl_car_003"}
+{"pair_id": "P0094", "correct_candidate_id": "C7", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f004306_rl_car_002"}
+{"pair_id": "P0095", "correct_candidate_id": "C5", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f004371_rl_truck_001"}
+{"pair_id": "P0096", "correct_candidate_id": "C7", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f004419_rl_car_002"}
+{"pair_id": "P0097", "correct_candidate_id": "C7", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f004505_rl_truck_001"}
+{"pair_id": "P0098", "correct_candidate_id": "C7", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f004510_rl_truck_002"}
+{"pair_id": "P0099", "correct_candidate_id": "C3", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f004726_rl_car_002"}
+{"pair_id": "P0100", "correct_candidate_id": "C6", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f004869_rl_car_001"}
+{"pair_id": "P0101", "correct_candidate_id": "C5", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f004970_rl_car_006"}
+{"pair_id": "P0102", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_19_09_54_29_637f45a0_f004971_rl_car_003"}
+{"pair_id": "P0103", "correct_candidate_id": "C8", "correct_detection_id": "2026_02_19_10_03_16_940d98f3_f000172_rl_car_002"}
+{"pair_id": "P0104", "correct_candidate_id": "C3", "correct_detection_id": "2026_02_19_10_03_16_940d98f3_f000164_rl_car_003"}
+{"pair_id": "P0105", "correct_candidate_id": "C6", "correct_detection_id": "2026_02_19_10_03_16_940d98f3_f000254_rl_truck_006"}
+{"pair_id": "P0106", "correct_candidate_id": "C7", "correct_detection_id": "2026_02_19_10_03_16_940d98f3_f000241_rl_truck_006"}
+{"pair_id": "P0107", "correct_candidate_id": "C5", "correct_detection_id": "2026_02_19_10_03_16_940d98f3_f000276_rl_car_005"}
+{"pair_id": "P0108", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_19_10_03_16_940d98f3_f000206_rl_bus_002"}
+{"pair_id": "P0109", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_19_10_03_16_940d98f3_f000209_rl_bus_002"}
+{"pair_id": "P0110", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_19_10_03_16_940d98f3_f000238_rl_delivery van_004"}
+{"pair_id": "P0111", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_19_10_03_16_940d98f3_f000239_rl_delivery van_004"}
+{"pair_id": "P0112", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_19_10_03_16_940d98f3_f000241_rl_delivery van_007"}
+{"pair_id": "P0113", "correct_candidate_id": "C7", "correct_detection_id": "2026_02_19_10_03_16_940d98f3_f000316_rl_car_003"}
+{"pair_id": "P0114", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_19_10_03_16_940d98f3_f000283_rl_car_005"}
+{"pair_id": "P0115", "correct_candidate_id": "C6", "correct_detection_id": "2026_02_19_10_03_16_940d98f3_f000373_rl_car_001"}
+{"pair_id": "P0116", "correct_candidate_id": "C6", "correct_detection_id": "2026_02_19_10_03_16_940d98f3_f000393_rl_ambulance_003"}
+{"pair_id": "P0117", "correct_candidate_id": "C6", "correct_detection_id": "2026_02_19_10_03_16_940d98f3_f000394_rl_truck_003"}
+{"pair_id": "P0118", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_19_10_03_16_940d98f3_f000339_rl_car_004"}
+{"pair_id": "P0119", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_19_10_03_16_940d98f3_f000316_rl_car_001"}
+{"pair_id": "P0120", "correct_candidate_id": "C6", "correct_detection_id": "2026_02_19_10_03_16_940d98f3_f000415_rl_bus_004"}
+{"pair_id": "P0121", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_19_10_03_16_940d98f3_f000392_rl_ambulance_003"}
+{"pair_id": "P0122", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_19_10_03_16_940d98f3_f000391_rl_truck_004"}
+{"pair_id": "P0123", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_19_10_03_16_940d98f3_f000448_rl_car_001"}
+{"pair_id": "P0124", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_19_10_03_16_940d98f3_f000523_rl_car_003"}
+{"pair_id": "P0125", "correct_candidate_id": "C8", "correct_detection_id": "2026_02_19_10_03_16_940d98f3_f000681_rl_car_001"}
+{"pair_id": "P0126", "correct_candidate_id": "C3", "correct_detection_id": "2026_02_19_10_03_16_940d98f3_f001386_rl_car_003"}
+{"pair_id": "P0127", "correct_candidate_id": "C4", "correct_detection_id": "2026_02_19_10_03_16_940d98f3_f001386_rl_car_005"}
+{"pair_id": "P0128", "correct_candidate_id": "C3", "correct_detection_id": "2026_02_19_10_03_16_940d98f3_f001408_rl_car_004"}
+{"pair_id": "P0129", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_19_10_03_16_940d98f3_f001413_rl_car_003"}
+{"pair_id": "P0130", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_19_10_03_16_940d98f3_f001409_rl_car_001"}
+{"pair_id": "P0131", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_19_10_03_16_940d98f3_f001432_rl_car_003"}
+{"pair_id": "P0132", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_19_10_03_16_940d98f3_f001459_rl_car_001"}
+{"pair_id": "P0133", "correct_candidate_id": "C4", "correct_detection_id": "2026_02_19_10_03_16_940d98f3_f001505_rl_bus_005"}
+{"pair_id": "P0134", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_19_10_03_16_940d98f3_f001490_rl_delivery van_005"}
+{"pair_id": "P0135", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_19_10_03_16_940d98f3_f001493_rl_car_001"}
+{"pair_id": "P0136", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_19_10_03_16_940d98f3_f001586_rl_car_003"}
+{"pair_id": "P0137", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_19_10_03_16_940d98f3_f001927_rl_car_001"}
+{"pair_id": "P0138", "correct_candidate_id": "C5", "correct_detection_id": "2026_02_19_10_03_16_940d98f3_f001959_rl_car_003"}
+{"pair_id": "P0139", "correct_candidate_id": "C4", "correct_detection_id": "2026_02_19_10_03_16_940d98f3_f001959_rl_car_005"}
+{"pair_id": "P0140", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_19_10_03_16_940d98f3_f002281_rl_car_001"}
+{"pair_id": "P0141", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_19_10_03_16_940d98f3_f002286_rl_car_005"}
+{"pair_id": "P0142", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_19_10_03_16_940d98f3_f002411_rl_car_003"}
+{"pair_id": "P0143", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_19_10_03_16_940d98f3_f002403_rl_delivery van_004"}
+{"pair_id": "P0144", "correct_candidate_id": "C4", "correct_detection_id": "2026_02_19_10_03_16_940d98f3_f002633_rl_truck_001"}
+{"pair_id": "P0145", "correct_candidate_id": "C4", "correct_detection_id": "2026_02_19_10_03_16_940d98f3_f002612_rl_truck_001"}
+{"pair_id": "P0146", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_19_10_03_16_940d98f3_f002633_rl_car_002"}
+{"pair_id": "P0147", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_21_16_56_39_59464432_f000790_rl_car_003"}
+{"pair_id": "P0148", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_21_16_56_39_59464432_f000778_rl_car_005"}
+{"pair_id": "P0149", "correct_candidate_id": "C4", "correct_detection_id": "2026_02_21_16_56_39_59464432_f000817_rl_car_002"}
+{"pair_id": "P0150", "correct_candidate_id": "C4", "correct_detection_id": "2026_02_21_16_56_39_59464432_f000817_rl_car_002"}
+{"pair_id": "P0151", "correct_candidate_id": "C5", "correct_detection_id": "2026_02_21_16_56_39_59464432_f000817_rl_car_001"}
+{"pair_id": "P0152", "correct_candidate_id": "C4", "correct_detection_id": "2026_02_21_16_56_39_59464432_f000843_rl_car_001"}
+{"pair_id": "P0153", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_21_16_56_39_59464432_f000978_rl_car_004"}
+{"pair_id": "P0154", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_21_16_56_39_59464432_f001075_rl_car_001"}
+{"pair_id": "P0155", "correct_candidate_id": "C4", "correct_detection_id": "2026_02_21_16_56_39_59464432_f001075_rl_car_003"}
+{"pair_id": "P0156", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_21_16_56_39_59464432_f001064_rl_car_001"}
+{"pair_id": "P0157", "correct_candidate_id": "C5", "correct_detection_id": "2026_02_21_16_56_39_59464432_f001064_rl_car_002"}
+{"pair_id": "P0158", "correct_candidate_id": "C6", "correct_detection_id": "2026_02_21_16_56_39_59464432_f001064_rl_car_003"}
+{"pair_id": "P0159", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_21_16_56_39_59464432_f001069_rl_car_001"}
+{"pair_id": "P0160", "correct_candidate_id": "C3", "correct_detection_id": "2026_02_21_16_56_39_59464432_f001134_rl_car_001"}
+{"pair_id": "P0161", "correct_candidate_id": "C3", "correct_detection_id": "2026_02_21_16_56_39_59464432_f002652_rl_car_003"}
+{"pair_id": "P0162", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_21_16_56_39_59464432_f002652_rl_car_002"}
+{"pair_id": "P0163", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_21_16_56_39_59464432_f002652_rl_car_001"}
+{"pair_id": "P0164", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_21_16_56_39_59464432_f002748_rl_car_003"}
+{"pair_id": "P0165", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_21_16_56_39_59464432_f002748_rl_car_001"}
+{"pair_id": "P0166", "correct_candidate_id": "C5", "correct_detection_id": "2026_02_21_16_56_39_59464432_f002750_rl_car_003"}
+{"pair_id": "P0167", "correct_candidate_id": "C6", "correct_detection_id": "2026_02_21_16_56_39_59464432_f002765_rl_car_004"}
+{"pair_id": "P0168", "correct_candidate_id": "C3", "correct_detection_id": "2026_02_21_16_56_39_59464432_f002765_rl_car_002"}
+{"pair_id": "P0169", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_21_16_56_39_59464432_f002751_rl_car_001"}
+{"pair_id": "P0170", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_21_16_56_39_59464432_f002765_rl_car_001"}
+{"pair_id": "P0171", "correct_candidate_id": "C3", "correct_detection_id": "2026_02_21_16_56_39_59464432_f002794_rl_car_006"}
+{"pair_id": "P0172", "correct_candidate_id": "C9", "correct_detection_id": "2026_02_21_16_56_39_59464432_f003231_rl_delivery van_009"}
+{"pair_id": "P0173", "correct_candidate_id": "C5", "correct_detection_id": "2026_02_21_16_56_39_59464432_f003231_rl_car_001"}
+{"pair_id": "P0174", "correct_candidate_id": "C9", "correct_detection_id": "2026_02_21_16_56_39_59464432_f003231_rl_delivery van_009"}
+{"pair_id": "P0175", "correct_candidate_id": "C7", "correct_detection_id": "2026_02_21_16_56_39_59464432_f003278_rl_delivery van_004"}
+{"pair_id": "P0176", "correct_candidate_id": "C8", "correct_detection_id": "2026_02_21_16_56_39_59464432_f003297_rl_delivery van_005"}
+{"pair_id": "P0177", "correct_candidate_id": "C10", "correct_detection_id": "2026_02_21_16_56_39_59464432_f003310_rl_delivery van_005"}
+{"pair_id": "P0178", "correct_candidate_id": "C8", "correct_detection_id": "2026_02_21_16_56_39_59464432_f003297_rl_delivery van_005"}
+{"pair_id": "P0179", "correct_candidate_id": "C8", "correct_detection_id": "2026_02_21_16_56_39_59464432_f003395_rl_car_001"}
+{"pair_id": "P0180", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_21_16_56_39_59464432_f003395_rl_delivery van_005"}
+{"pair_id": "P0181", "correct_candidate_id": "C8", "correct_detection_id": "2026_02_21_16_56_39_59464432_f003410_rl_car_008"}
+{"pair_id": "P0182", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_21_16_56_39_59464432_f003479_rl_car_006"}
+{"pair_id": "P0183", "correct_candidate_id": "C4", "correct_detection_id": "2026_02_21_16_56_39_59464432_f003622_rl_car_001"}
+{"pair_id": "P0184", "correct_candidate_id": "C7", "correct_detection_id": "2026_02_21_16_56_39_59464432_f003622_rl_car_009"}
+{"pair_id": "P0185", "correct_candidate_id": "C9", "correct_detection_id": "2026_02_21_16_56_39_59464432_f003637_rl_car_006"}
+{"pair_id": "P0186", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_21_16_56_39_59464432_f003717_rl_truck_002"}
+{"pair_id": "P0187", "correct_candidate_id": "C4", "correct_detection_id": "2026_02_21_16_56_39_59464432_f003729_rl_car_002"}
+{"pair_id": "P0188", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_21_16_56_39_59464432_f004054_rl_car_003"}
+{"pair_id": "P0189", "correct_candidate_id": "C4", "correct_detection_id": "2026_02_21_16_56_39_59464432_f004054_rl_car_002"}
+{"pair_id": "P0190", "correct_candidate_id": "C4", "correct_detection_id": "2026_02_21_16_56_39_59464432_f004054_rl_car_002"}
+{"pair_id": "P0191", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_21_16_56_39_59464432_f004054_rl_car_001"}
+{"pair_id": "P0192", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_21_16_56_39_59464432_f004054_rl_car_001"}
+{"pair_id": "P0193", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_21_16_56_39_59464432_f004058_rl_car_005"}
+{"pair_id": "P0194", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_21_16_56_39_59464432_f004079_rl_car_001"}
+{"pair_id": "P0195", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_21_16_56_39_59464432_f004084_rl_car_001"}
+{"pair_id": "P0196", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_21_16_56_39_59464432_f004088_rl_truck_001"}
+{"pair_id": "P0197", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_21_16_56_39_59464432_f004109_rl_car_001"}
+{"pair_id": "P0198", "correct_candidate_id": "C3", "correct_detection_id": "2026_02_21_16_56_39_59464432_f004167_rl_car_002"}
+{"pair_id": "P0199", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_21_16_56_39_59464432_f004413_rl_truck_002"}
+{"pair_id": "P0200", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_21_16_56_39_59464432_f004528_rl_car_001"}
+{"pair_id": "P0201", "correct_candidate_id": "C3", "correct_detection_id": "2026_02_21_16_56_39_59464432_f004820_rl_car_002"}
+{"pair_id": "P0202", "correct_candidate_id": "C4", "correct_detection_id": "2026_02_21_16_56_39_59464432_f004820_rl_car_001"}
+{"pair_id": "P0203", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_21_17_06_07_7b75dd4a_f000034_rl_truck_006"}
+{"pair_id": "P0204", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_21_17_06_07_7b75dd4a_f000029_rl_truck_003"}
+{"pair_id": "P0205", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_21_17_06_07_7b75dd4a_f000067_rl_truck_002"}
+{"pair_id": "P0206", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_21_17_06_07_7b75dd4a_f000064_rl_truck_004"}
+{"pair_id": "P0207", "correct_candidate_id": "C3", "correct_detection_id": "2026_02_21_17_06_07_7b75dd4a_f000049_rl_car_001"}
+{"pair_id": "P0208", "correct_candidate_id": "C7", "correct_detection_id": "2026_02_21_17_06_07_7b75dd4a_f000438_rl_truck_005"}
+{"pair_id": "P0209", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_21_17_06_07_7b75dd4a_f000446_rl_truck_005"}
+{"pair_id": "P0210", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_21_17_06_07_7b75dd4a_f000436_rl_truck_002"}
+{"pair_id": "P0211", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_21_17_06_07_7b75dd4a_f000541_rl_bus_003"}
+{"pair_id": "P0212", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_21_17_06_07_7b75dd4a_f000541_rl_bus_002"}
+{"pair_id": "P0213", "correct_candidate_id": "C6", "correct_detection_id": "2026_02_21_17_06_07_7b75dd4a_f000803_rl_car_001"}
+{"pair_id": "P0214", "correct_candidate_id": "C6", "correct_detection_id": "manual_dcbbab03-a757-430e-a96c-a6c00f1c3431"}
+{"pair_id": "P0215", "correct_candidate_id": "C8", "correct_detection_id": "2026_02_21_17_06_07_7b75dd4a_f000821_rl_car_003"}
+{"pair_id": "P0216", "correct_candidate_id": "C6", "correct_detection_id": "2026_02_21_17_06_07_7b75dd4a_f000823_rl_car_003"}
+{"pair_id": "P0217", "correct_candidate_id": "C8", "correct_detection_id": "2026_02_21_17_06_07_7b75dd4a_f000918_rl_car_001"}
+{"pair_id": "P0218", "correct_candidate_id": "C7", "correct_detection_id": "2026_02_21_17_06_07_7b75dd4a_f000906_rl_car_001"}
+{"pair_id": "P0219", "correct_candidate_id": "C6", "correct_detection_id": "2026_02_21_17_06_07_7b75dd4a_f000965_rl_car_002"}
+{"pair_id": "P0220", "correct_candidate_id": "C5", "correct_detection_id": "2026_02_21_17_06_07_7b75dd4a_f000979_rl_car_002"}
+{"pair_id": "P0221", "correct_candidate_id": "C6", "correct_detection_id": "2026_02_21_17_06_07_7b75dd4a_f000966_rl_truck_006"}
+{"pair_id": "P0222", "correct_candidate_id": "C4", "correct_detection_id": "2026_02_21_17_06_07_7b75dd4a_f000974_rl_car_003"}
+{"pair_id": "P0223", "correct_candidate_id": "C4", "correct_detection_id": "2026_02_21_17_06_07_7b75dd4a_f000966_rl_car_001"}
+{"pair_id": "P0224", "correct_candidate_id": "C6", "correct_detection_id": "2026_02_21_17_06_07_7b75dd4a_f000974_rl_truck_001"}
+{"pair_id": "P0225", "correct_candidate_id": "C6", "correct_detection_id": "2026_02_21_17_06_07_7b75dd4a_f000979_rl_truck_001"}
+{"pair_id": "P0226", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_21_17_06_07_7b75dd4a_f000990_rl_truck_007"}
+{"pair_id": "P0227", "correct_candidate_id": "C9", "correct_detection_id": "2026_02_21_17_06_07_7b75dd4a_f000984_rl_car_002"}
+{"pair_id": "P0228", "correct_candidate_id": "C8", "correct_detection_id": "2026_02_21_17_06_07_7b75dd4a_f001103_rl_truck_001"}
+{"pair_id": "P0229", "correct_candidate_id": "C7", "correct_detection_id": "2026_02_21_17_06_07_7b75dd4a_f001054_rl_truck_001"}
+{"pair_id": "P0230", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_21_17_06_07_7b75dd4a_f001115_rl_truck_002"}
+{"pair_id": "P0231", "correct_candidate_id": "C7", "correct_detection_id": "2026_02_21_17_06_07_7b75dd4a_f001411_rl_car_001"}
+{"pair_id": "P0232", "correct_candidate_id": "C4", "correct_detection_id": "2026_02_21_17_06_07_7b75dd4a_f001542_rl_car_004"}
+{"pair_id": "P0233", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_21_17_06_07_7b75dd4a_f001596_rl_truck_003"}
+{"pair_id": "P0234", "correct_candidate_id": "C4", "correct_detection_id": "2026_02_21_17_06_07_7b75dd4a_f002766_rl_car_002"}
+{"pair_id": "P0235", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_21_17_06_07_7b75dd4a_f003215_rl_car_002"}
+{"pair_id": "P0236", "correct_candidate_id": "C6", "correct_detection_id": "2026_02_21_17_16_20_09bcd3e6_f000355_rl_truck_002"}
+{"pair_id": "P0237", "correct_candidate_id": "C4", "correct_detection_id": "2026_02_21_17_16_20_09bcd3e6_f000302_rl_truck_002"}
+{"pair_id": "P0238", "correct_candidate_id": "C5", "correct_detection_id": "2026_02_21_17_16_20_09bcd3e6_f000270_rl_truck_002"}
+{"pair_id": "P0239", "correct_candidate_id": "C7", "correct_detection_id": "2026_02_21_17_16_20_09bcd3e6_f004261_rl_car_002"}
+{"pair_id": "P0240", "correct_candidate_id": "C9", "correct_detection_id": "2026_02_21_17_16_20_09bcd3e6_f004261_rl_car_007"}
+{"pair_id": "P0241", "correct_candidate_id": "C8", "correct_detection_id": "2026_02_21_17_16_20_09bcd3e6_f004271_rl_car_001"}
+{"pair_id": "P0242", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_21_17_16_20_09bcd3e6_f004271_rl_ambulance_008"}
+{"pair_id": "P0243", "correct_candidate_id": "C5", "correct_detection_id": "2026_02_21_17_16_20_09bcd3e6_f004322_rl_car_006"}
+{"pair_id": "P0244", "correct_candidate_id": "C5", "correct_detection_id": "2026_02_21_17_16_20_09bcd3e6_f004341_rl_car_005"}
+{"pair_id": "P0245", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_21_17_16_20_09bcd3e6_f004357_rl_truck_002"}
+{"pair_id": "P0246", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_21_17_16_20_09bcd3e6_f004353_rl_truck_002"}
+{"pair_id": "P0247", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_21_17_16_20_09bcd3e6_f004570_rl_truck_004"}
+{"pair_id": "P0248", "correct_candidate_id": "C7", "correct_detection_id": "2026_02_21_17_16_20_09bcd3e6_f004598_rl_truck_002"}
+{"pair_id": "P0249", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_21_17_16_20_09bcd3e6_f004661_rl_truck_001"}
+{"pair_id": "P0250", "correct_candidate_id": "C8", "correct_detection_id": "2026_02_21_17_16_20_09bcd3e6_f004682_rl_truck_002"}
+{"pair_id": "P0251", "correct_candidate_id": "C3", "correct_detection_id": "2026_02_21_17_16_20_09bcd3e6_f004833_rl_car_004"}
+{"pair_id": "P0252", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_21_17_16_20_09bcd3e6_f005028_rl_bus_001"}
+{"pair_id": "P0253", "correct_candidate_id": "C6", "correct_detection_id": "2026_02_21_17_16_20_09bcd3e6_f005134_rl_car_001"}
+{"pair_id": "P0254", "correct_candidate_id": "C5", "correct_detection_id": "2026_02_21_17_16_20_09bcd3e6_f005155_rl_truck_002"}
+{"pair_id": "P0255", "correct_candidate_id": "C7", "correct_detection_id": "2026_02_21_17_16_20_09bcd3e6_f005179_rl_truck_001"}
+{"pair_id": "P0256", "correct_candidate_id": "C9", "correct_detection_id": "2026_02_21_17_16_20_09bcd3e6_f005195_rl_delivery van_008"}
+{"pair_id": "P0257", "correct_candidate_id": "C11", "correct_detection_id": "2026_02_21_17_16_20_09bcd3e6_f005215_rl_car_001"}
+{"pair_id": "P0258", "correct_candidate_id": "C8", "correct_detection_id": "2026_02_21_17_16_20_09bcd3e6_f005243_rl_delivery van_003"}
+{"pair_id": "P0259", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_21_17_16_20_09bcd3e6_f005303_rl_truck_002"}
+{"pair_id": "P0260", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_21_17_16_20_09bcd3e6_f005407_rl_truck_003"}
+{"pair_id": "P0261", "correct_candidate_id": "C7", "correct_detection_id": "2026_02_21_17_16_20_09bcd3e6_f005544_rl_car_002"}
+{"pair_id": "P0262", "correct_candidate_id": "C5", "correct_detection_id": "2026_02_21_17_16_20_09bcd3e6_f005560_rl_car_002"}
+{"pair_id": "P0263", "correct_candidate_id": "C3", "correct_detection_id": "2026_02_21_17_16_20_09bcd3e6_f006357_rl_car_009"}
+{"pair_id": "P0264", "correct_candidate_id": "C5", "correct_detection_id": "2026_02_21_17_16_20_09bcd3e6_f006465_rl_car_001"}
+{"pair_id": "P0265", "correct_candidate_id": "C4", "correct_detection_id": "2026_02_21_17_16_20_09bcd3e6_f006465_rl_car_002"}
+{"pair_id": "P0266", "correct_candidate_id": "C4", "correct_detection_id": "2026_02_21_17_16_20_09bcd3e6_f008131_rl_car_002"}
+{"pair_id": "P0267", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_21_17_16_20_09bcd3e6_f008838_rl_bus_001"}
+{"pair_id": "P0268", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_21_17_16_20_09bcd3e6_f009272_rl_car_002"}
+{"pair_id": "P0269", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_21_17_16_20_09bcd3e6_f009307_rl_bus_001"}
+{"pair_id": "P0270", "correct_candidate_id": "C5", "correct_detection_id": "2026_02_21_17_16_20_09bcd3e6_f009566_rl_car_002"}
+{"pair_id": "P0271", "correct_candidate_id": "C6", "correct_detection_id": "2026_02_21_17_36_02_2eaa363b_f000364_rl_car_002"}
+{"pair_id": "P0272", "correct_candidate_id": "C6", "correct_detection_id": "2026_02_21_17_36_02_2eaa363b_f000067_rl_car_004"}
+{"pair_id": "P0273", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_21_17_36_02_2eaa363b_f000370_rl_car_008"}
+{"pair_id": "P0274", "correct_candidate_id": "C6", "correct_detection_id": "2026_02_21_17_36_02_2eaa363b_f000073_rl_car_001"}
+{"pair_id": "P0275", "correct_candidate_id": "C5", "correct_detection_id": "2026_02_21_17_36_02_2eaa363b_f000082_rl_car_006"}
+{"pair_id": "P0276", "correct_candidate_id": "C5", "correct_detection_id": "2026_02_21_17_36_02_2eaa363b_f000084_rl_car_001"}
+{"pair_id": "P0277", "correct_candidate_id": "C4", "correct_detection_id": "2026_02_21_17_36_02_2eaa363b_f000084_rl_car_005"}
+{"pair_id": "P0278", "correct_candidate_id": "C11", "correct_detection_id": "2026_02_21_17_36_02_2eaa363b_f000100_rl_car_001"}
+{"pair_id": "P0279", "correct_candidate_id": "C7", "correct_detection_id": "2026_02_21_17_36_02_2eaa363b_f000153_rl_car_001"}
+{"pair_id": "P0280", "correct_candidate_id": "C4", "correct_detection_id": "2026_02_21_17_36_02_2eaa363b_f000222_rl_car_001"}
+{"pair_id": "P0281", "correct_candidate_id": "C5", "correct_detection_id": "2026_02_21_17_36_02_2eaa363b_f000357_rl_car_003"}
+{"pair_id": "P0282", "correct_candidate_id": "C6", "correct_detection_id": "2026_02_21_17_36_02_2eaa363b_f000355_rl_car_001"}
+{"pair_id": "P0283", "correct_candidate_id": "C5", "correct_detection_id": "2026_02_21_17_36_02_2eaa363b_f000369_rl_car_003"}
+{"pair_id": "P0284", "correct_candidate_id": "C3", "correct_detection_id": "2026_02_21_17_36_02_2eaa363b_f000385_rl_car_002"}
+{"pair_id": "P0285", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_21_17_36_02_2eaa363b_f000369_rl_car_005"}
+{"pair_id": "P0286", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_21_17_36_02_2eaa363b_f000376_rl_car_003"}
+{"pair_id": "P0287", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_21_17_36_02_2eaa363b_f000376_rl_car_003"}
+{"pair_id": "P0288", "correct_candidate_id": "C8", "correct_detection_id": "2026_02_21_17_36_02_2eaa363b_f000386_rl_car_001"}
+{"pair_id": "P0289", "correct_candidate_id": "C4", "correct_detection_id": "2026_02_21_17_36_02_2eaa363b_f000386_rl_car_004"}
+{"pair_id": "P0290", "correct_candidate_id": "C7", "correct_detection_id": "2026_02_21_17_36_02_2eaa363b_f000382_rl_car_001"}
+{"pair_id": "P0291", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_25_16_23_40_5edb2c66_f000144_rl_car_005"}
+{"pair_id": "P0292", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_25_16_23_40_5edb2c66_f000162_rl_car_001"}
+{"pair_id": "P0293", "correct_candidate_id": "C4", "correct_detection_id": "2026_02_25_16_23_40_5edb2c66_f000222_rl_delivery van_006"}
+{"pair_id": "P0294", "correct_candidate_id": "C4", "correct_detection_id": "2026_02_25_16_23_40_5edb2c66_f000222_rl_delivery van_006"}
+{"pair_id": "P0295", "correct_candidate_id": "C10", "correct_detection_id": "2026_02_25_16_23_40_5edb2c66_f000291_rl_delivery van_009"}
+{"pair_id": "P0296", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_25_16_23_40_5edb2c66_f000312_rl_car_008"}
+{"pair_id": "P0297", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_25_16_23_40_5edb2c66_f000326_rl_car_001"}
+{"pair_id": "P0298", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_25_16_23_40_5edb2c66_f000337_rl_car_001"}
+{"pair_id": "P0299", "correct_candidate_id": "C8", "correct_detection_id": "2026_02_25_16_23_40_5edb2c66_f000645_rl_car_003"}
+{"pair_id": "P0300", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_25_16_23_40_5edb2c66_f000591_rl_car_005"}
+{"pair_id": "P0301", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_25_16_23_40_5edb2c66_f000646_rl_delivery van_005"}
+{"pair_id": "P0302", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_25_16_23_40_5edb2c66_f000796_rl_car_003"}
+{"pair_id": "P0303", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_25_16_23_40_5edb2c66_f000796_rl_bus_001"}
+{"pair_id": "P0304", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_25_16_23_40_5edb2c66_f000824_rl_car_004"}
+{"pair_id": "P0305", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_25_16_23_40_5edb2c66_f000833_rl_car_002"}
+{"pair_id": "P0306", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_25_16_23_40_5edb2c66_f000927_rl_bus_001"}
+{"pair_id": "P0307", "correct_candidate_id": "C8", "correct_detection_id": "2026_02_25_16_23_40_5edb2c66_f001509_rl_car_008"}
+{"pair_id": "P0308", "correct_candidate_id": "C6", "correct_detection_id": "2026_02_25_16_23_40_5edb2c66_f001514_rl_car_007"}
+{"pair_id": "P0309", "correct_candidate_id": "C4", "correct_detection_id": "2026_02_25_16_36_23_9c9ad834_f000195_rl_car_002"}
+{"pair_id": "P0310", "correct_candidate_id": "C3", "correct_detection_id": "2026_02_25_16_36_23_9c9ad834_f000195_rl_car_005"}
+{"pair_id": "P0311", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_25_16_36_23_9c9ad834_f000300_rl_car_001"}
+{"pair_id": "P0312", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_25_16_36_23_9c9ad834_f000707_rl_car_003"}
+{"pair_id": "P0313", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_25_16_36_23_9c9ad834_f000707_rl_car_001"}
+{"pair_id": "P0314", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_25_16_36_23_9c9ad834_f000712_rl_car_001"}
+{"pair_id": "P0315", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_25_16_36_23_9c9ad834_f000903_rl_car_001"}
+{"pair_id": "P0316", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_25_16_36_23_9c9ad834_f001036_rl_car_002"}
+{"pair_id": "P0317", "correct_candidate_id": "C3", "correct_detection_id": "2026_02_25_16_36_23_9c9ad834_f001087_rl_car_003"}
+{"pair_id": "P0318", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_25_16_36_23_9c9ad834_f001113_rl_car_002"}
+{"pair_id": "P0319", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_25_16_36_23_9c9ad834_f001194_rl_car_001"}
+{"pair_id": "P0320", "correct_candidate_id": "C7", "correct_detection_id": "2026_02_25_16_36_23_9c9ad834_f001333_rl_car_003"}
+{"pair_id": "P0321", "correct_candidate_id": "C3", "correct_detection_id": "2026_02_25_16_36_23_9c9ad834_f001333_rl_delivery van_006"}
+{"pair_id": "P0322", "correct_candidate_id": "C3", "correct_detection_id": "2026_02_25_16_36_23_9c9ad834_f001630_rl_car_003"}
+{"pair_id": "P0323", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_25_16_36_23_9c9ad834_f001632_rl_bus_001"}
+{"pair_id": "P0324", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_25_16_36_23_9c9ad834_f001642_rl_bus_001"}
+{"pair_id": "P0325", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_25_16_36_23_9c9ad834_f002049_rl_car_001"}
+{"pair_id": "P0326", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_25_16_41_20_c9d855d0_f000040_rl_car_001"}
+{"pair_id": "P0327", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_25_16_41_20_c9d855d0_f000078_rl_car_002"}
+{"pair_id": "P0328", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_25_16_41_20_c9d855d0_f000096_rl_car_002"}
+{"pair_id": "P0329", "correct_candidate_id": "C7", "correct_detection_id": "2026_02_25_16_41_20_c9d855d0_f000200_rl_truck_003"}
+{"pair_id": "P0330", "correct_candidate_id": "C7", "correct_detection_id": "2026_02_25_16_41_20_c9d855d0_f000214_rl_car_001"}
+{"pair_id": "P0331", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_25_16_41_20_c9d855d0_f000283_rl_car_004"}
+{"pair_id": "P0332", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_25_16_41_20_c9d855d0_f000283_rl_car_003"}
+{"pair_id": "P0333", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_25_16_41_20_c9d855d0_f000285_rl_car_005"}
+{"pair_id": "P0334", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_25_16_41_20_c9d855d0_f000315_rl_delivery van_006"}
+{"pair_id": "P0335", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_25_16_41_20_c9d855d0_f000299_rl_car_006"}
+{"pair_id": "P0336", "correct_candidate_id": "C9", "correct_detection_id": "2026_02_25_16_41_20_c9d855d0_f000350_rl_car_003"}
+{"pair_id": "P0337", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_25_16_41_20_c9d855d0_f000367_rl_car_003"}
+{"pair_id": "P0338", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_25_16_41_20_c9d855d0_f000386_rl_delivery van_006"}
+{"pair_id": "P0339", "correct_candidate_id": "C4", "correct_detection_id": "2026_02_25_16_41_20_c9d855d0_f000393_rl_car_008"}
+{"pair_id": "P0340", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_25_16_41_20_c9d855d0_f000609_rl_car_001"}
+{"pair_id": "P0341", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_25_16_41_20_c9d855d0_f000958_rl_car_003"}
+{"pair_id": "P0342", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_25_16_41_20_c9d855d0_f001104_rl_car_003"}
+{"pair_id": "P0343", "correct_candidate_id": "C3", "correct_detection_id": "2026_02_25_16_41_20_c9d855d0_f001119_rl_car_005"}
+{"pair_id": "P0344", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_25_16_41_20_c9d855d0_f001119_rl_delivery van_007"}
+{"pair_id": "P0345", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_25_16_41_20_c9d855d0_f001420_rl_car_003"}
+{"pair_id": "P0346", "correct_candidate_id": "C3", "correct_detection_id": "2026_02_25_16_41_20_c9d855d0_f001457_rl_car_004"}
+{"pair_id": "P0347", "correct_candidate_id": "C3", "correct_detection_id": "2026_02_25_16_41_20_c9d855d0_f001461_rl_car_002"}
+{"pair_id": "P0348", "correct_candidate_id": "C3", "correct_detection_id": "2026_02_25_16_41_20_c9d855d0_f001466_rl_car_003"}
+{"pair_id": "P0349", "correct_candidate_id": "C4", "correct_detection_id": "2026_02_25_16_41_20_c9d855d0_f001350_rl_car_004"}
+{"pair_id": "P0350", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_25_16_41_20_c9d855d0_f001511_rl_car_004"}
+{"pair_id": "P0351", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_25_16_41_20_c9d855d0_f001511_rl_truck_005"}
+{"pair_id": "P0352", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_25_16_41_20_c9d855d0_f001587_rl_car_002"}
+{"pair_id": "P0353", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_25_16_41_20_c9d855d0_f001610_rl_car_002"}
+{"pair_id": "P0354", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_25_16_41_20_c9d855d0_f001620_rl_car_001"}
+{"pair_id": "P0355", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_25_16_41_20_c9d855d0_f001620_rl_car_004"}
+{"pair_id": "P0356", "correct_candidate_id": "C8", "correct_detection_id": "2026_02_25_16_41_20_c9d855d0_f001517_rl_car_001"}
+{"pair_id": "P0357", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_25_16_41_20_c9d855d0_f001702_rl_car_001"}
+{"pair_id": "P0358", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_25_16_41_20_c9d855d0_f001722_rl_car_001"}
+{"pair_id": "P0359", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_25_16_41_20_c9d855d0_f001744_rl_truck_003"}
+{"pair_id": "P0360", "correct_candidate_id": "C8", "correct_detection_id": "2026_02_25_16_41_20_c9d855d0_f001829_rl_car_003"}
+{"pair_id": "P0361", "correct_candidate_id": "C7", "correct_detection_id": "2026_02_25_16_41_20_c9d855d0_f002025_rl_car_005"}
+{"pair_id": "P0362", "correct_candidate_id": "C5", "correct_detection_id": "2026_02_25_16_41_20_c9d855d0_f002042_rl_car_002"}
+{"pair_id": "P0363", "correct_candidate_id": "C6", "correct_detection_id": "2026_02_25_16_41_20_c9d855d0_f002123_rl_truck_001"}
+{"pair_id": "P0364", "correct_candidate_id": "C7", "correct_detection_id": "2026_02_25_16_41_20_c9d855d0_f002128_rl_truck_005"}
+{"pair_id": "P0365", "correct_candidate_id": "C6", "correct_detection_id": "2026_02_25_16_41_20_c9d855d0_f002128_rl_truck_001"}
+{"pair_id": "P0366", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_25_16_41_20_c9d855d0_f002140_rl_car_004"}
+{"pair_id": "P0367", "correct_candidate_id": "C1", "correct_detection_id": "2026_02_25_16_41_20_c9d855d0_f002227_rl_delivery van_006"}
+{"pair_id": "P0368", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_25_16_41_20_c9d855d0_f002210_rl_car_001"}
+{"pair_id": "P0369", "correct_candidate_id": "C3", "correct_detection_id": "2026_02_25_16_41_20_c9d855d0_f002510_rl_car_002"}
+{"pair_id": "P0370", "correct_candidate_id": "C4", "correct_detection_id": "2026_02_25_16_41_20_c9d855d0_f002510_rl_truck_004"}
+{"pair_id": "P0371", "correct_candidate_id": "C2", "correct_detection_id": "2026_02_25_16_41_20_c9d855d0_f002706_rl_car_001"}
+{"pair_id": "P0372", "correct_candidate_id": "C1", "correct_detection_id": "2026_03_03_12_35_25_c0b72d3f_f000131_rl_car_008"}
+{"pair_id": "P0373", "correct_candidate_id": "C3", "correct_detection_id": "2026_03_03_12_35_25_c0b72d3f_f000131_rl_car_007"}
+{"pair_id": "P0374", "correct_candidate_id": "C2", "correct_detection_id": "2026_03_03_12_35_25_c0b72d3f_f000152_rl_car_002"}
+{"pair_id": "P0375", "correct_candidate_id": "C2", "correct_detection_id": "2026_03_03_12_35_25_c0b72d3f_f000700_rl_bus_001"}
+{"pair_id": "P0376", "correct_candidate_id": "C3", "correct_detection_id": "2026_03_03_12_35_25_c0b72d3f_f001258_rl_truck_002"}
+{"pair_id": "P0377", "correct_candidate_id": "C2", "correct_detection_id": "2026_03_03_12_35_25_c0b72d3f_f001260_rl_car_003"}
+{"pair_id": "P0378", "correct_candidate_id": "C1", "correct_detection_id": "2026_03_03_12_35_25_c0b72d3f_f001541_rl_delivery van_003"}
+{"pair_id": "P0379", "correct_candidate_id": "C6", "correct_detection_id": "2026_03_03_12_35_25_c0b72d3f_f001737_rl_delivery van_003"}
+{"pair_id": "P0380", "correct_candidate_id": "C4", "correct_detection_id": "2026_03_03_12_35_25_c0b72d3f_f001755_rl_car_001"}
+{"pair_id": "P0381", "correct_candidate_id": "C1", "correct_detection_id": "2026_03_03_12_35_25_c0b72d3f_f002146_rl_car_003"}
+{"pair_id": "P0382", "correct_candidate_id": "C7", "correct_detection_id": "2026_03_03_12_35_25_c0b72d3f_f002281_rl_bus_003"}
+{"pair_id": "P0383", "correct_candidate_id": "C6", "correct_detection_id": "2026_03_03_12_35_25_c0b72d3f_f002420_rl_car_005"}
+{"pair_id": "P0384", "correct_candidate_id": "C1", "correct_detection_id": "2026_03_03_12_35_25_c0b72d3f_f002740_rl_car_004"}
+{"pair_id": "P0385", "correct_candidate_id": "C8", "correct_detection_id": "2026_03_03_12_35_25_c0b72d3f_f002469_rl_car_006"}
+{"pair_id": "P0386", "correct_candidate_id": "C8", "correct_detection_id": "2026_03_03_12_35_25_c0b72d3f_f002717_rl_truck_005"}
+{"pair_id": "P0387", "correct_candidate_id": "C2", "correct_detection_id": "2026_03_03_12_35_25_c0b72d3f_f002868_rl_car_003"}
+{"pair_id": "P0388", "correct_candidate_id": "C3", "correct_detection_id": "2026_03_03_12_35_25_c0b72d3f_f002868_rl_car_004"}
+{"pair_id": "P0389", "correct_candidate_id": "C7", "correct_detection_id": "2026_03_03_12_35_25_c0b72d3f_f002907_rl_car_002"}
+{"pair_id": "P0390", "correct_candidate_id": "C7", "correct_detection_id": "2026_03_03_12_35_25_c0b72d3f_f002910_rl_car_002"}
+{"pair_id": "P0391", "correct_candidate_id": "C8", "correct_detection_id": "2026_03_03_12_35_25_c0b72d3f_f002920_rl_car_008"}
+{"pair_id": "P0392", "correct_candidate_id": "C7", "correct_detection_id": "2026_03_03_12_35_25_c0b72d3f_f002927_rl_car_002"}
+{"pair_id": "P0393", "correct_candidate_id": "C2", "correct_detection_id": "2026_03_03_12_35_25_c0b72d3f_f002963_rl_truck_003"}
+{"pair_id": "P0394", "correct_candidate_id": "C2", "correct_detection_id": "2026_03_03_12_35_25_c0b72d3f_f002963_rl_truck_003"}
+{"pair_id": "P0395", "correct_candidate_id": "C1", "correct_detection_id": "2026_03_03_12_35_25_c0b72d3f_f002972_rl_delivery van_001"}
+{"pair_id": "P0396", "correct_candidate_id": "C2", "correct_detection_id": "2026_03_03_12_35_25_c0b72d3f_f002981_rl_truck_002"}
+{"pair_id": "P0397", "correct_candidate_id": "C2", "correct_detection_id": "2026_03_03_12_35_25_c0b72d3f_f002967_rl_car_002"}
+{"pair_id": "P0398", "correct_candidate_id": "C1", "correct_detection_id": "2026_03_03_12_35_25_c0b72d3f_f003010_rl_delivery van_005"}
+{"pair_id": "P0399", "correct_candidate_id": "C2", "correct_detection_id": "2026_03_03_12_35_25_c0b72d3f_f003094_rl_truck_003"}
+{"pair_id": "P0400", "correct_candidate_id": "C5", "correct_detection_id": "2026_03_03_12_35_25_c0b72d3f_f003094_rl_truck_001"}
+{"pair_id": "P0401", "correct_candidate_id": "C2", "correct_detection_id": "2026_03_03_12_35_25_c0b72d3f_f003094_rl_truck_003"}
+{"pair_id": "P0402", "correct_candidate_id": "C1", "correct_detection_id": "2026_03_03_12_35_25_c0b72d3f_f003094_rl_car_004"}
+{"pair_id": "P0403", "correct_candidate_id": "C6", "correct_detection_id": "2026_03_03_12_35_25_c0b72d3f_f003097_rl_truck_001"}
+{"pair_id": "P0404", "correct_candidate_id": "C4", "correct_detection_id": "2026_03_03_12_35_25_c0b72d3f_f003107_rl_truck_001"}
+{"pair_id": "P0405", "correct_candidate_id": "C3", "correct_detection_id": "2026_03_03_12_35_25_c0b72d3f_f003091_rl_car_005"}
+{"pair_id": "P0406", "correct_candidate_id": "C3", "correct_detection_id": "2026_03_03_12_35_25_c0b72d3f_f003146_rl_car_002"}
+{"pair_id": "P0407", "correct_candidate_id": "C3", "correct_detection_id": "2026_03_03_12_35_25_c0b72d3f_f003148_rl_delivery van_007"}
+{"pair_id": "P0408", "correct_candidate_id": "C4", "correct_detection_id": "2026_03_03_12_35_25_c0b72d3f_f003230_rl_delivery van_005"}
+{"pair_id": "P0409", "correct_candidate_id": "C4", "correct_detection_id": "2026_03_03_12_35_25_c0b72d3f_f003242_rl_car_003"}
+{"pair_id": "P0410", "correct_candidate_id": "C10", "correct_detection_id": "2026_03_03_17_44_24_61db98c7_f000046_rl_car_002"}
+{"pair_id": "P0411", "correct_candidate_id": "C1", "correct_detection_id": "2026_03_03_17_44_24_61db98c7_f000092_rl_car_006"}
+{"pair_id": "P0412", "correct_candidate_id": "C2", "correct_detection_id": "2026_03_03_17_44_24_61db98c7_f000092_rl_car_002"}
+{"pair_id": "P0413", "correct_candidate_id": "C6", "correct_detection_id": "2026_03_03_17_44_24_61db98c7_f000105_rl_delivery van_010"}
+{"pair_id": "P0414", "correct_candidate_id": "C3", "correct_detection_id": "2026_03_03_17_44_24_61db98c7_f000154_rl_car_001"}
+{"pair_id": "P0415", "correct_candidate_id": "C1", "correct_detection_id": "2026_03_03_17_44_24_61db98c7_f000199_rl_delivery van_002"}
+{"pair_id": "P0416", "correct_candidate_id": "C2", "correct_detection_id": "2026_03_03_17_44_24_61db98c7_f000657_rl_car_003"}
+{"pair_id": "P0417", "correct_candidate_id": "C5", "correct_detection_id": "manual_e8406ba6-b512-4b4b-960c-0de571d8c4f5"}
+{"pair_id": "P0418", "correct_candidate_id": "C1", "correct_detection_id": "manual_4717c6b5-257b-4545-bd23-626a9191b763"}
+{"pair_id": "P0419", "correct_candidate_id": "C1", "correct_detection_id": "2026_03_03_17_44_24_61db98c7_f000710_rl_car_005"}
+{"pair_id": "P0420", "correct_candidate_id": "C1", "correct_detection_id": "2026_03_03_17_44_24_61db98c7_f000894_rl_car_001"}
+{"pair_id": "P0421", "correct_candidate_id": "C1", "correct_detection_id": "2026_03_03_17_44_24_61db98c7_f000923_rl_car_001"}
+{"pair_id": "P0422", "correct_candidate_id": "C1", "correct_detection_id": "2026_03_03_17_44_24_61db98c7_f001044_rl_car_002"}
+{"pair_id": "P0423", "correct_candidate_id": "C9", "correct_detection_id": "2026_03_03_17_46_14_ccc2c850_f000615_rl_bus_003"}
+{"pair_id": "P0424", "correct_candidate_id": "C11", "correct_detection_id": "2026_03_03_17_46_14_ccc2c850_f000615_rl_bus_001"}
+{"pair_id": "P0425", "correct_candidate_id": "C7", "correct_detection_id": "2026_03_03_17_46_14_ccc2c850_f000624_rl_car_002"}
+{"pair_id": "P0426", "correct_candidate_id": "C10", "correct_detection_id": "2026_03_03_17_46_14_ccc2c850_f001017_rl_delivery van_001"}
+{"pair_id": "P0427", "correct_candidate_id": "C8", "correct_detection_id": "2026_03_03_17_46_14_ccc2c850_f001040_rl_car_003"}
+{"pair_id": "P0428", "correct_candidate_id": "C8", "correct_detection_id": "2026_03_03_17_46_14_ccc2c850_f001054_rl_car_007"}
+{"pair_id": "P0429", "correct_candidate_id": "C9", "correct_detection_id": "2026_03_03_17_46_14_ccc2c850_f001074_rl_car_001"}
+{"pair_id": "P0430", "correct_candidate_id": "C5", "correct_detection_id": "2026_03_03_17_46_14_ccc2c850_f001129_rl_car_005"}
+{"pair_id": "P0431", "correct_candidate_id": "C7", "correct_detection_id": "2026_03_03_17_46_14_ccc2c850_f001207_rl_car_001"}
+{"pair_id": "P0432", "correct_candidate_id": "C1", "correct_detection_id": "2026_03_03_17_46_14_ccc2c850_f001323_rl_bus_001"}
+{"pair_id": "P0433", "correct_candidate_id": "C2", "correct_detection_id": "2026_03_03_17_46_14_ccc2c850_f001329_rl_bus_002"}
+{"pair_id": "P0434", "correct_candidate_id": "C3", "correct_detection_id": "2026_03_03_17_49_08_d7aacfa3_f000088_rl_car_003"}
+{"pair_id": "P0435", "correct_candidate_id": "C1", "correct_detection_id": "2026_03_03_17_49_08_d7aacfa3_f000134_rl_ambulance_005"}
+{"pair_id": "P0436", "correct_candidate_id": "C2", "correct_detection_id": "2026_03_03_17_49_08_d7aacfa3_f000141_rl_delivery van_007"}
+{"pair_id": "P0437", "correct_candidate_id": "C10", "correct_detection_id": "2026_03_03_17_49_08_d7aacfa3_f000211_rl_car_001"}
+{"pair_id": "P0438", "correct_candidate_id": "C8", "correct_detection_id": "2026_03_03_17_49_08_d7aacfa3_f000249_rl_car_002"}
+{"pair_id": "P0439", "correct_candidate_id": "C1", "correct_detection_id": "2026_03_03_17_49_08_d7aacfa3_f000260_rl_bus_005"}
+{"pair_id": "P0440", "correct_candidate_id": "C7", "correct_detection_id": "2026_03_03_17_49_08_d7aacfa3_f000248_rl_car_003"}
+{"pair_id": "P0441", "correct_candidate_id": "C1", "correct_detection_id": "2026_03_03_17_49_08_d7aacfa3_f000356_rl_delivery van_004"}
+{"pair_id": "P0442", "correct_candidate_id": "C2", "correct_detection_id": "2026_03_03_17_49_08_d7aacfa3_f000676_rl_car_002"}
+{"pair_id": "P0443", "correct_candidate_id": "C1", "correct_detection_id": "2026_03_03_17_49_08_d7aacfa3_f000673_rl_car_004"}
+{"pair_id": "P0444", "correct_candidate_id": "C1", "correct_detection_id": "2026_03_03_17_49_08_d7aacfa3_f000676_rl_car_001"}
+{"pair_id": "P0445", "correct_candidate_id": "C4", "correct_detection_id": "2026_03_03_17_49_08_d7aacfa3_f000748_rl_car_007"}
+{"pair_id": "P0446", "correct_candidate_id": "C1", "correct_detection_id": "2026_03_03_17_49_08_d7aacfa3_f000790_rl_delivery van_009"}
+{"pair_id": "P0447", "correct_candidate_id": "C2", "correct_detection_id": "2026_03_03_17_49_08_d7aacfa3_f000790_rl_delivery van_008"}
+{"pair_id": "P0448", "correct_candidate_id": "C3", "correct_detection_id": "2026_03_03_17_49_08_d7aacfa3_f000790_rl_delivery van_007"}
+{"pair_id": "P0449", "correct_candidate_id": "C2", "correct_detection_id": "2026_03_03_17_49_08_d7aacfa3_f000787_rl_delivery van_005"}
+{"pair_id": "P0450", "correct_candidate_id": "C1", "correct_detection_id": "2026_03_03_17_49_08_d7aacfa3_f000800_rl_delivery van_007"}
+{"pair_id": "P0451", "correct_candidate_id": "C2", "correct_detection_id": "2026_03_03_17_49_08_d7aacfa3_f000800_rl_delivery van_009"}
+{"pair_id": "P0452", "correct_candidate_id": "C1", "correct_detection_id": "2026_03_03_17_49_08_d7aacfa3_f000872_rl_car_006"}
+{"pair_id": "P0453", "correct_candidate_id": "C2", "correct_detection_id": "2026_03_03_17_49_08_d7aacfa3_f000880_rl_car_009"}
+{"pair_id": "P0454", "correct_candidate_id": "C1", "correct_detection_id": "2026_03_03_17_51_02_6131dcf9_f000092_rl_car_005"}
+{"pair_id": "P0455", "correct_candidate_id": "C1", "correct_detection_id": "2026_03_03_17_51_02_6131dcf9_f000109_rl_car_003"}
+{"pair_id": "P0456", "correct_candidate_id": "C7", "correct_detection_id": "2026_03_03_17_51_02_6131dcf9_f000151_rl_car_002"}
+{"pair_id": "P0457", "correct_candidate_id": "C7", "correct_detection_id": "2026_03_03_17_51_02_6131dcf9_f000089_rl_car_003"}
+{"pair_id": "P0458", "correct_candidate_id": "C4", "correct_detection_id": "2026_03_03_17_51_02_6131dcf9_f000154_rl_car_005"}
+{"pair_id": "P0459", "correct_candidate_id": "C3", "correct_detection_id": "2026_03_03_17_51_02_6131dcf9_f000273_rl_delivery van_006"}
+{"pair_id": "P0460", "correct_candidate_id": "C3", "correct_detection_id": "2026_03_03_17_51_02_6131dcf9_f000270_rl_delivery van_006"}
+{"pair_id": "P0461", "correct_candidate_id": "C10", "correct_detection_id": "2026_03_03_17_51_02_6131dcf9_f000239_rl_car_001"}
+{"pair_id": "P0462", "correct_candidate_id": "C3", "correct_detection_id": "2026_03_03_17_51_02_6131dcf9_f000396_rl_delivery van_009"}
+{"pair_id": "P0463", "correct_candidate_id": "C2", "correct_detection_id": "2026_03_03_17_51_02_6131dcf9_f000389_rl_car_001"}
+{"pair_id": "P0464", "correct_candidate_id": "C9", "correct_detection_id": "2026_03_03_17_51_02_6131dcf9_f000407_rl_car_001"}
+{"pair_id": "P0465", "correct_candidate_id": "C3", "correct_detection_id": "2026_03_03_17_51_02_6131dcf9_f000522_rl_delivery van_003"}
+{"pair_id": "P0466", "correct_candidate_id": "C2", "correct_detection_id": "2026_03_03_17_51_02_6131dcf9_f000526_rl_bus_006"}
+{"pair_id": "P0467", "correct_candidate_id": "C1", "correct_detection_id": "2026_03_03_17_51_02_6131dcf9_f000526_rl_delivery van_003"}
+{"pair_id": "P0468", "correct_candidate_id": "C2", "correct_detection_id": "2026_03_03_17_51_02_6131dcf9_f000639_rl_car_006"}
+{"pair_id": "P0469", "correct_candidate_id": "C2", "correct_detection_id": "2026_03_03_17_51_02_6131dcf9_f000857_rl_car_002"}
+{"pair_id": "P0470", "correct_candidate_id": "C3", "correct_detection_id": "2026_03_03_17_51_02_6131dcf9_f000890_rl_car_002"}
+{"pair_id": "P0471", "correct_candidate_id": "C3", "correct_detection_id": "2026_03_03_17_51_02_6131dcf9_f001462_rl_car_001"}
+{"pair_id": "P0472", "correct_candidate_id": "C3", "correct_detection_id": "2026_03_03_17_51_02_6131dcf9_f001445_rl_car_003"}
+{"pair_id": "P0473", "correct_candidate_id": "C2", "correct_detection_id": "2026_03_03_17_51_02_6131dcf9_f001446_rl_car_002"}
+{"pair_id": "P0474", "correct_candidate_id": "C2", "correct_detection_id": "2026_03_03_17_51_02_6131dcf9_f001559_rl_car_006"}
+{"pair_id": "P0475", "correct_candidate_id": "C6", "correct_detection_id": "2026_03_03_17_51_02_6131dcf9_f001818_rl_car_001"}
+{"pair_id": "P0476", "correct_candidate_id": "C1", "correct_detection_id": "2026_03_03_17_51_02_6131dcf9_f003201_rl_car_003"}
+{"pair_id": "P0477", "correct_candidate_id": "C1", "correct_detection_id": "2026_03_03_17_51_02_6131dcf9_f003528_rl_car_003"}
+{"pair_id": "P0478", "correct_candidate_id": "C2", "correct_detection_id": "2026_03_03_17_51_02_6131dcf9_f003528_rl_car_001"}
+{"pair_id": "P0479", "correct_candidate_id": "C5", "correct_detection_id": "2026_03_03_17_51_02_6131dcf9_f004531_rl_car_004"}
+{"pair_id": "P0480", "correct_candidate_id": "C1", "correct_detection_id": "2026_03_03_17_51_02_6131dcf9_f004531_rl_car_001"}
+{"pair_id": "P0481", "correct_candidate_id": "C4", "correct_detection_id": "2026_03_03_17_51_02_6131dcf9_f004538_rl_car_003"}
+{"pair_id": "P0482", "correct_candidate_id": "C1", "correct_detection_id": "2026_03_03_17_51_02_6131dcf9_f004529_rl_car_003"}
+{"pair_id": "P0483", "correct_candidate_id": "C2", "correct_detection_id": "2026_03_03_17_51_02_6131dcf9_f004528_rl_car_002"}
+{"pair_id": "P0484", "correct_candidate_id": "C5", "correct_detection_id": "2026_03_03_17_51_02_6131dcf9_f004528_rl_car_004"}
+{"pair_id": "P0485", "correct_candidate_id": "C1", "correct_detection_id": "2026_03_03_17_51_02_6131dcf9_f004538_rl_car_004"}
+{"pair_id": "P0486", "correct_candidate_id": "C1", "correct_detection_id": "2026_03_03_17_51_02_6131dcf9_f004608_rl_car_002"}
+{"pair_id": "P0487", "correct_candidate_id": "C1", "correct_detection_id": "2026_03_03_17_58_47_9ab5bd5e_f000336_rl_truck_003"}
+{"pair_id": "P0488", "correct_candidate_id": "C2", "correct_detection_id": "2026_03_03_17_58_47_9ab5bd5e_f000496_rl_car_001"}
+{"pair_id": "P0489", "correct_candidate_id": "C1", "correct_detection_id": "2026_03_03_17_58_47_9ab5bd5e_f000587_rl_car_003"}
+{"pair_id": "P0490", "correct_candidate_id": "C3", "correct_detection_id": "2026_03_03_17_58_47_9ab5bd5e_f000748_rl_car_001"}
+{"pair_id": "P0491", "correct_candidate_id": "C1", "correct_detection_id": "2026_03_03_17_58_47_9ab5bd5e_f000738_rl_ambulance_003"}
+{"pair_id": "P0492", "correct_candidate_id": "C1", "correct_detection_id": "2026_03_03_17_58_47_9ab5bd5e_f000744_rl_car_003"}
+{"pair_id": "P0493", "correct_candidate_id": "C3", "correct_detection_id": "2026_03_03_17_58_47_9ab5bd5e_f000748_rl_car_001"}
+{"pair_id": "P0494", "correct_candidate_id": "C2", "correct_detection_id": "2026_03_03_17_58_47_9ab5bd5e_f000771_rl_car_004"}
+{"pair_id": "P0495", "correct_candidate_id": "C4", "correct_detection_id": "2026_03_03_17_58_47_9ab5bd5e_f000831_rl_car_005"}
+{"pair_id": "P0496", "correct_candidate_id": "C2", "correct_detection_id": "2026_03_03_17_58_47_9ab5bd5e_f000862_rl_car_003"}
+{"pair_id": "P0497", "correct_candidate_id": "C2", "correct_detection_id": "2026_03_03_17_58_47_9ab5bd5e_f000872_rl_car_002"}
+{"pair_id": "P0498", "correct_candidate_id": "C2", "correct_detection_id": "2026_03_03_17_58_47_9ab5bd5e_f000883_rl_car_001"}
+{"pair_id": "P0499", "correct_candidate_id": "C1", "correct_detection_id": "2026_03_03_17_58_47_9ab5bd5e_f000883_rl_car_002"}
+{"pair_id": "P0500", "correct_candidate_id": "C3", "correct_detection_id": "2026_03_03_17_58_47_9ab5bd5e_f000883_rl_car_003"}
