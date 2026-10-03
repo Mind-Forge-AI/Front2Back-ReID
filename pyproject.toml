@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "front2back-reid"
+version = "1.1.0"
+description = "Benchmark tools for Front2Back-ReID: asymmetric front-to-rear vehicle re-identification (arXiv:2609.39492)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Moseli Mots'oehli", email = "moselim@hawaii.edu" },
+  { name = "Thulani Babeli" },
+]
+keywords = ["vehicle re-identification", "benchmark", "vision-language models", "cross-view matching", "autonomous driving"]
+dependencies = ["numpy>=1.24", "pillow>=10.0", "scipy>=1.11"]
+
+[project.optional-dependencies]
+baselines = ["opencv-python-headless>=4.8", "torch>=2.2", "torchvision>=0.17", "transformers>=4.49"]
+local = ["torch>=2.2", "transformers>=4.49", "accelerate>=1.0"]
+dev = ["pytest>=8"]
+
+[project.urls]
+Paper = "https://arxiv.org/abs/2609.39492"
+"Project page" = "https://mind-forge-ai.github.io/Front2Back-ReID/"
+Code = "https://github.com/Mind-Forge-AI/Front2Back-ReID"
+
+[tool.setuptools.packages.find]
+include = ["front2back*"]
+
+[tool.setuptools.package-data]
+front2back = ["resources/*.json"]

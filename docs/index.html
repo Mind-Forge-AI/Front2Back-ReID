@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Front2Back-ReID</title>
+<meta name="description" content="Front-to-Back: benchmarking vision-language models for asymmetric cross-view vehicle re-identification. 500 verified front-to-rear vehicle handovers recorded on South African roads.">
+<meta property="og:title" content="Front-to-Back: Benchmarking VLMs for Asymmetric Cross-View Vehicle Re-ID">
+<meta property="og:description" content="500 front-to-rear vehicle handovers from South African roads. Best VLM 76.6% vs frozen SigLIP2 74.0% vs humans 94.0%. Try the task yourself.">
+<meta property="og:image" content="site/img/teaser.jpg">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" type="image/png" href="site/img/favicon.png">
+<link rel="stylesheet" href="project.css">
+<script defer src="project.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="topbar">
+  <a class="brand" href="#overview" aria-label="Front2Back-ReID home"><img class="logo" src="site/img/mindforge-logo-96.png" srcset="site/img/mindforge-logo-96.png 1x, site/img/mindforge-logo-192.png 2x" width="25" height="36" alt="MindForge AI"><span class="brand-name">Front2Back-ReID</span></a>
+  <nav class="tabs" aria-label="Sections">
+    <a href="#overview" data-tab="overview">Project</a>
+    <a href="#try" data-tab="try" class="tab-try">Try the task</a>
+    <a href="#explore" data-tab="explore">Explore</a>
+  </nav>
+  <button class="theme" id="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9z"/></svg>
+  </button>
+</header>
+
+<main id="main">
+
+<!-- ============================== OVERVIEW ============================== -->
+<section class="view" id="view-overview" data-view="overview">
+  <div class="hero wrap">
+    <p class="venue">ACCV 2026 Workshop &middot; CV4DC &middot; under review</p>
+    <h1>Front-to-Back: Benchmarking <span class="nw">Vision-Language</span> Models for Asymmetric <span class="nw">Cross-View</span> Vehicle <span class="nw">Re-Identification</span></h1>
+    <p class="authors"><span>Moseli Mots’oehli<sup>1,2</sup></span><span>Thulani Babeli<sup>1</sup></span></p>
+    <p class="affil"><span><sup>1</sup><img class="aff-logo" src="site/img/mindforge-logo-96.png" width="14" height="20" alt="">MindForge AI, Johannesburg, South Africa</span><span><sup>2</sup>University of Hawai‘i at Mānoa, Honolulu, HI, USA</span></p>
+    <div class="actions">
+      <a class="btn btn-dark" href="https://github.com/Mind-Forge-AI/Front2Back-ReID"><svg class="gh" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-1.98c-3.2.7-3.87-1.37-3.87-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.76 2.69 1.25 3.35.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.39-5.25 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>Code</a>
+      <a class="btn" href="https://arxiv.org/abs/2609.39492" aria-label="Paper on arXiv"><span class="arxiv-mark" aria-hidden="true">ar<b>X</b>iv</span>Paper</a>
+      <a class="btn dataset-link" href="https://github.com/Mind-Forge-AI/Front2Back-ReID#data"><svg viewBox="0 0 24 24" aria-hidden="true"><ellipse cx="12" cy="6" rx="8" ry="3"/><path d="M4 6v12c0 1.7 3.6 3 8 3s8-1.3 8-3V6M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></svg>Dataset</a>
+      <a class="btn" href="#citation"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7h4v4c0 3-2 5-4 6M15 7h4v4c0 3-2 5-4 6"/></svg>BibTeX</a>
+      <a class="btn primary" href="#try"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4v16l13-8z"/></svg>Try the task</a>
+    </div>
+  </div>
+
+
+  <figure class="wrap teaser">
+    <img src="site/img/teaser.jpg" width="2114" height="775" alt="A vehicle highlighted in the front-left camera disappears through a blind interval and reappears among labelled candidates C1 to C6 in the rear-left camera. Front evidence can be the full RGB scene, a target crop, or a binary silhouette.">
+    <figcaption>A highlighted front-left vehicle disappears through a blind interval and reappears among labelled rear-left candidates. Pick the same vehicle, given the full scene, a crop, or a silhouette.</figcaption>
+  </figure>
+
+  <div class="wrap prose">
+    <h2 id="abstract">Abstract</h2>
+    <p class="abs">Matching the same vehicle across front and rear cameras is difficult because the cameras do not share a view and the vehicle’s appearance changes substantially. We introduce Front2Back-ReID, a benchmark of 500 manually verified vehicle handovers from 20 recording sequences in South Africa. Each example asks a model to match a vehicle highlighted in a front-camera image to the same vehicle among at least three candidates in a later rear-camera image. We evaluate seven zero-shot vision-language models, four image-retrieval baselines, and 25 human participants. Models are tested using full front RGB images, cropped target vehicles, and binary silhouettes. The strongest VLM achieved 76.6% Rank-1 accuracy on target crops, compared with 74.0% for the frozen SigLIP2 baseline; this difference was not statistically clear. Human participants achieved 94.0% accuracy with full images and 92.2% with target crops. Under our evaluation setup, enabling reasoning improved accuracy across all three input conditions for every model evaluated in both modes. We also found that VLMs generally performed worse on full scenes than on target crops. These results show that general-purpose VLMs do not yet consistently outperform strong visual retrieval for front-to-rear vehicle matching, while humans remain substantially more reliable.</p>
+  </div>
+
+  <div class="wrap section" id="benchmark">
+    <h2>Benchmark</h2>
+    <div class="stat-row" aria-label="Benchmark at a glance">
+      <div class="stat"><span class="stat-value">500</span><span class="stat-label">verified handovers</span></div>
+      <div class="stat"><span class="stat-value">20</span><span class="stat-label">recordings, South Africa</span></div>
+      <div class="stat"><span class="stat-value">3</span><span class="stat-label">front inputs: scene, crop, silhouette</span></div>
+      <div class="stat"><span class="stat-value">25</span><span class="stat-label">human participants</span></div>
+    </div>
+    <figure class="wide">
+      <img src="site/img/overview.jpg" width="1491" height="1055" loading="lazy" alt="Overview: benchmark construction from front and rear recordings with curator-verified matches, the closed-gallery task with three front evidence conditions, and the evaluation of zero-shot VLMs, frozen retrieval baselines and human participants.">
+      <figcaption>Two low-cost stereo cameras, curator-verified matches, a fixed rear gallery and three kinds of front evidence. Zero-shot VLMs, frozen retrieval baselines and people all make the same decisions.</figcaption>
+    </figure>
+  </div>
+
+  <div class="wrap section" id="results">
+    <h2>Results</h2>
+    <p class="lede">The best VLM is not clearly better than a frozen SigLIP2 encoder, and people stay far ahead.</p>
+  </div>
+  <div class="wrap">
+    <div class="toolbar" role="group" aria-label="Reasoning mode">
+      <span class="toolbar-label">VLM reasoning</span>
+      <div class="seg" id="reasoning-seg">
+        <button type="button" data-mode="none" aria-pressed="true">Disabled</button>
+        <button type="button" data-mode="medium" aria-pressed="false">Medium effort</button>
+      </div>
+      <span class="toolbar-note" id="reasoning-note"></span>
+    </div>
+  </div>
+
+  <div class="wrap card">
+    <h2 class="card-title" id="leaderboard-title">Rank-1 accuracy by front evidence</h2>
+    <p class="card-sub" id="leaderboard-sub"></p>
+    <div class="table-scroll"><table class="board" id="leaderboard"></table></div>
+    <p class="foot">95% BCa intervals over pairs. Δ<sub>ctx</sub> = full RGB − crop. LLaVA-OneVision always answers C1. Gemini 2.5 Pro can’t disable reasoning.</p>
+  </div>
+
+
+  <div class="wrap card">
+    <h3 class="card-title">Where models break</h3>
+    <p class="card-sub">Target-crop Rank-1 by difficulty. Humans hold steady while models fall on small or occluded targets.</p>
+    <div class="legend" id="strata-legend"></div>
+    <div class="multiples" id="strata"></div>
+  </div>
+
+  <div class="wrap section">
+    <figure class="case">
+      <img src="site/img/model_failure.jpg" width="1600" height="372" loading="lazy" alt="A distant white truck with a reddish-brown container at dusk; every VLM picked the prominent truck C1 instead of the small, distant correct match C2.">
+      <figcaption>Every VLM picked C1, a prominent truck. The match is the small, distant C2. <a href="#explore/P0008">Open this pair →</a></figcaption>
+    </figure>
+  </div>
+
+  <div class="wrap section cta-row">
+    <a class="cta" href="#try"><b>Try the task</b><span>20 timed trials. See how you compare with people and every model.</span></a>
+    <a class="cta" href="#explore"><b>Explore all 500 pairs</b><span>Filter by road, target size and gallery size, then reveal the match.</span></a>
+  </div>
+</section>
+
+
+
+<!-- ============================== TRY ============================== -->
+<section class="view" id="view-try" data-view="try" hidden>
+  <div class="wrap page-head">
+    <p class="eyebrow">Try the task</p>
+    <h1>Can you beat the models?</h1>
+    <p class="lede">Twenty trials in the same format as the human study. Find the highlighted front vehicle in the rear gallery, then see how you compare with people and every model.</p>
+  </div>
+
+  <div class="wrap" id="try-setup">
+    <div class="card setup">
+      <fieldset class="choice" id="cond-choice">
+        <legend>Front evidence</legend>
+        <label><input type="radio" name="cond" value="rgb_full" checked><span><b>Full RGB</b><small>Whole front scene with the target boxed</small></span></label>
+        <label><input type="radio" name="cond" value="front_crop"><span><b>Target crop</b><small>Just the target vehicle</small></span></label>
+        <label><input type="radio" name="cond" value="front_mask"><span><b>Silhouette</b><small>Shape only, no colour. Models only, no human baseline.</small></span></label>
+      </fieldset>
+      <fieldset class="choice" id="mode-choice">
+        <legend>Feedback</legend>
+        <label><input type="radio" name="mode" value="test" checked><span><b>Test</b><small>Answers revealed at the end, like the study</small></span></label>
+        <label><input type="radio" name="mode" value="practice"><span><b>Practice</b><small>See the answer after each trial</small></span></label>
+        <label class="opt"><input type="checkbox" id="opt-closeups"><span><b>Candidate close-ups</b><small>Enlarged crops of every rear candidate. Study participants didn’t have these, so your result is marked.</small></span></label>
+      </fieldset>
+      <div class="setup-foot">
+        <label class="seed">Set <input id="seed" inputmode="numeric" pattern="[0-9]*" maxlength="6" aria-describedby="seed-help"></label>
+        <span id="seed-help" class="hint">20 pairs drawn evenly across rear-target sizes. Share a set number to compare scores with a friend.</span>
+        <button class="btn primary" id="start" type="button">Start 20 trials</button>
+      </div>
+      <p class="hint" id="best-score"></p>
+    </div>
+  </div>
+
+  <div class="wrap wrap-xl" id="try-run" hidden>
+    <div class="run-head">
+      <div class="progress" aria-hidden="true"><span id="progress-bar"></span></div>
+      <p id="run-status" class="run-status" aria-live="polite"></p>
+      <button class="btn ghost small" id="quit" type="button">Quit</button>
+    </div>
+    <div class="viewer" id="try-viewer"></div>
+    <div class="answer-bar">
+      <div class="chips" id="chips" role="radiogroup" aria-label="Candidates"></div>
+      <button class="btn primary" id="confirm" type="button" disabled>Confirm</button>
+    </div>
+    <div class="feedback" id="feedback" hidden aria-live="polite"></div>
+    <p class="hint keys">Click a box or a label, then confirm. Keyboard: <kbd>1</kbd>–<kbd>9</kbd> select, <kbd>Enter</kbd> confirms, <kbd>Z</kbd> zooms.</p>
+  </div>
+
+  <div class="wrap wrap-xl" id="try-done" hidden></div>
+</section>
+
+<!-- ============================== EXPLORE ============================== -->
+<section class="view" id="view-explore" data-view="explore" hidden>
+  <div class="wrap page-head">
+    <p class="eyebrow">Explore</p>
+    <h1>All 500 handovers</h1>
+    <p class="lede">Every pair with its difficulty labels. Switch the front evidence and reveal the match.</p>
+  </div>
+  <div class="wrap wrap-xl">
+    <div class="toolbar filters">
+      <label>Road <select id="f-road"><option value="">All</option><option value="highway">Highway</option><option value="urban">Urban</option><option value="suburban">Suburban</option><option value="construction_zone">Construction</option></select></label>
+      <label>Rear target <select id="f-scale"><option value="">Any size</option><option value="large">Large</option><option value="medium">Medium</option><option value="small">Small</option></select></label>
+      <label>Gallery <select id="f-k"><option value="">Any K</option><option value="3">K = 3</option><option value="4-5">K = 4–5</option><option value="6+">K ≥ 6</option></select></label>
+      <label class="check"><input type="checkbox" id="f-hard"> Missed by both human judges</label>
+      <span class="toolbar-note" id="f-count"></span>
+    </div>
+  </div>
+  <div class="wrap wrap-xl"><div class="card explorer">
+    <div class="ex-nav">
+      <button class="btn small" id="ex-prev" type="button" aria-label="Previous pair">←</button>
+      <label>Pair <select id="ex-pick" aria-label="Choose pair"></select></label>
+      <button class="btn small" id="ex-next" type="button" aria-label="Next pair">→</button>
+      <div class="seg" id="ex-view" role="group" aria-label="Front evidence">
+        <button type="button" data-v="full" aria-pressed="true">Full RGB</button>
+        <button type="button" data-v="crop" aria-pressed="false">Crop</button>
+        <button type="button" data-v="silhouette" aria-pressed="false">Silhouette</button>
+        <button type="button" data-v="original" aria-pressed="false">Original</button>
+      </div>
+      <button class="btn small" id="ex-reveal" type="button" aria-pressed="false">Reveal match</button>
+    </div>
+    <div class="viewer" id="ex-viewer"></div>
+    <div class="ex-meta" id="ex-meta"></div>
+    <div class="ex-picks" id="ex-picks"></div>
+  </div></div>
+</section>
+
+
+</main>
+
+<section class="citation-band" id="citation" aria-labelledby="cite-title">
+  <div class="wrap">
+    <h2 id="cite-title">Citation</h2>
+    <p class="cite-as">Cite as: <b>Moseli Mots’oehli</b> and <b>Thulani Babeli</b>. <i>Front-to-Back: Benchmarking Vision-Language Models for Asymmetric Cross-View Vehicle Re-Identification.</i> arXiv:2609.39492, 2026.</p>
+    <div class="bib-wrap">
+<pre class="bib" id="bibtex">@article{motsoehli2026front2back,
+  title         = {Front-to-Back: Benchmarking Vision-Language Models for Asymmetric Cross-View Vehicle Re-Identification},
+  author        = {Mots'oehli, Moseli and Babeli, Thulani},
+  journal       = {arXiv preprint arXiv:2609.39492},
+  year          = {2026},
+  eprint        = {2609.39492},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CV},
+  doi           = {10.48550/arXiv.2609.39492}
+}</pre>
+      <button class="btn small copy-bib" id="copy-bib" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h3"/></svg>Copy</button>
+    </div>
+    <p id="copy-status" class="hint" aria-live="polite"></p>
+    <h3>Acknowledgements</h3>
+    <p class="ack">We thank the 25 participants in the human evaluation for their time, and Dalitso Chomey for valuable discussions on the paper.</p>
+  </div>
+</section>
+
+<footer class="footer wrap">
+  <span class="foot-brand"><img src="site/img/mindforge-logo-96.png" width="20" height="28" alt="MindForge AI logo"><span><b>Front2Back-ReID</b> · MindForge AI · University of Hawai‘i at Mānoa</span></span>
+  <span class="foot-links"><a href="https://github.com/Mind-Forge-AI/Front2Back-ReID"><svg class="gh" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-1.98c-3.2.7-3.87-1.37-3.87-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.76 2.69 1.25 3.35.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.39-5.25 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>Code</a><a href="https://arxiv.org/abs/2609.39492"><span class="arxiv-mark" aria-hidden="true">ar<b>X</b>iv</span>Paper</a><a href="#citation">Cite</a></span>
+</footer>
+<div class="tooltip" id="tooltip" role="tooltip" hidden></div>
+<div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Enlarged figure"><button type="button" class="lb-close" aria-label="Close">×</button><img alt=""><p class="lb-cap"></p></div>
+</body>
+</html>

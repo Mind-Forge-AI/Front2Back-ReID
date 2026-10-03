@@ -1,0 +1,277 @@
+{
+ "source": "Mots'oehli & Babeli, arXiv:2609.39492, Tables 3-4 (Rank-1 %, 95% BCa, 100,000 resamples, seed 32025)",
+ "human_reference": {
+  "rgb_full": {
+   "acc": 94.0,
+   "lo": 91.6,
+   "hi": 95.8
+  },
+  "front_crop": {
+   "acc": 92.2,
+   "lo": 89.6,
+   "hi": 94.4
+  }
+ },
+ "cells": {
+  "random_gallery__front_crop__none": {
+   "acc": 17.8,
+   "lo": 14.4,
+   "hi": 21.2
+  },
+  "hsv_histogram__front_crop__none": {
+   "acc": 47.6,
+   "lo": 43.0,
+   "hi": 51.8
+  },
+  "dinov2_vitb14__front_crop__none": {
+   "acc": 49.4,
+   "lo": 44.8,
+   "hi": 53.6
+  },
+  "siglip2_base__front_crop__none": {
+   "acc": 74.0,
+   "lo": 69.8,
+   "hi": 77.6
+  },
+  "llava_onevision_0_5b__rgb_full__none": {
+   "acc": 27.4,
+   "lo": 23.4,
+   "hi": 31.2
+  },
+  "llava_onevision_0_5b__front_crop__none": {
+   "acc": 27.4,
+   "lo": 23.4,
+   "hi": 31.2
+  },
+  "llava_onevision_0_5b__front_mask__none": {
+   "acc": 27.4,
+   "lo": 23.4,
+   "hi": 31.2
+  },
+  "llama4_scout_groq__rgb_full__none": {
+   "acc": 54.8,
+   "lo": 50.2,
+   "hi": 59.0
+  },
+  "llama4_scout_groq__front_crop__none": {
+   "acc": 61.4,
+   "lo": 56.8,
+   "hi": 65.4
+  },
+  "llama4_scout_groq__front_mask__none": {
+   "acc": 34.2,
+   "lo": 30.0,
+   "hi": 38.2
+  },
+  "qwen3_6_27b_groq__rgb_full__none": {
+   "acc": 63.6,
+   "lo": 59.2,
+   "hi": 67.6
+  },
+  "qwen3_6_27b_groq__front_crop__none": {
+   "acc": 74.6,
+   "lo": 70.4,
+   "hi": 78.0
+  },
+  "qwen3_6_27b_groq__front_mask__none": {
+   "acc": 32.2,
+   "lo": 28.0,
+   "hi": 36.2
+  },
+  "gpt5_5__rgb_full__none": {
+   "acc": 58.4,
+   "lo": 53.8,
+   "hi": 62.4
+  },
+  "gpt5_5__front_crop__none": {
+   "acc": 74.8,
+   "lo": 70.6,
+   "hi": 78.2
+  },
+  "gpt5_5__front_mask__none": {
+   "acc": 36.8,
+   "lo": 32.4,
+   "hi": 40.8
+  },
+  "gpt5_4_mini__rgb_full__none": {
+   "acc": 44.6,
+   "lo": 40.0,
+   "hi": 48.8
+  },
+  "gpt5_4_mini__front_crop__none": {
+   "acc": 58.4,
+   "lo": 53.8,
+   "hi": 62.4
+  },
+  "gpt5_4_mini__front_mask__none": {
+   "acc": 28.6,
+   "lo": 24.6,
+   "hi": 32.6
+  },
+  "gemini_2_5_flash__rgb_full__none": {
+   "acc": 50.6,
+   "lo": 46.0,
+   "hi": 54.8
+  },
+  "gemini_2_5_flash__front_crop__none": {
+   "acc": 64.0,
+   "lo": 59.6,
+   "hi": 68.0
+  },
+  "gemini_2_5_flash__front_mask__none": {
+   "acc": 25.2,
+   "lo": 21.4,
+   "hi": 29.0
+  },
+  "gpt5_5__rgb_full__medium": {
+   "acc": 62.8,
+   "lo": 58.2,
+   "hi": 66.8
+  },
+  "gpt5_5__front_crop__medium": {
+   "acc": 76.6,
+   "lo": 72.6,
+   "hi": 80.0
+  },
+  "gpt5_5__front_mask__medium": {
+   "acc": 43.8,
+   "lo": 39.4,
+   "hi": 48.0
+  },
+  "gpt5_4_mini__rgb_full__medium": {
+   "acc": 58.8,
+   "lo": 54.2,
+   "hi": 62.8
+  },
+  "gpt5_4_mini__front_crop__medium": {
+   "acc": 71.0,
+   "lo": 66.6,
+   "hi": 74.6
+  },
+  "gpt5_4_mini__front_mask__medium": {
+   "acc": 40.0,
+   "lo": 35.6,
+   "hi": 44.2
+  },
+  "gemini_2_5_pro__rgb_full__medium": {
+   "acc": 60.6,
+   "lo": 56.0,
+   "hi": 64.6
+  },
+  "gemini_2_5_pro__front_crop__medium": {
+   "acc": 71.8,
+   "lo": 67.4,
+   "hi": 75.4
+  },
+  "gemini_2_5_pro__front_mask__medium": {
+   "acc": 34.6,
+   "lo": 30.4,
+   "hi": 38.6
+  },
+  "gemini_2_5_flash__rgb_full__medium": {
+   "acc": 54.4,
+   "lo": 49.8,
+   "hi": 58.6
+  },
+  "gemini_2_5_flash__front_crop__medium": {
+   "acc": 67.2,
+   "lo": 62.8,
+   "hi": 71.0
+  },
+  "gemini_2_5_flash__front_mask__medium": {
+   "acc": 32.0,
+   "lo": 27.8,
+   "hi": 36.0
+  }
+ },
+ "reasoning_effects": [
+  {
+   "model": "gpt5_5",
+   "condition": "rgb_full",
+   "none": 58.4,
+   "medium": 62.8,
+   "delta": 4.4,
+   "lo": 0.4,
+   "hi": 8.4
+  },
+  {
+   "model": "gpt5_5",
+   "condition": "front_crop",
+   "none": 74.8,
+   "medium": 76.6,
+   "delta": 1.8,
+   "lo": -1.2,
+   "hi": 4.8
+  },
+  {
+   "model": "gpt5_5",
+   "condition": "front_mask",
+   "none": 36.8,
+   "medium": 43.8,
+   "delta": 7.0,
+   "lo": 3.2,
+   "hi": 11.0
+  },
+  {
+   "model": "gpt5_4_mini",
+   "condition": "rgb_full",
+   "none": 44.6,
+   "medium": 58.8,
+   "delta": 14.2,
+   "lo": 9.4,
+   "hi": 19.0
+  },
+  {
+   "model": "gpt5_4_mini",
+   "condition": "front_crop",
+   "none": 58.4,
+   "medium": 71.0,
+   "delta": 12.6,
+   "lo": 8.4,
+   "hi": 16.8
+  },
+  {
+   "model": "gpt5_4_mini",
+   "condition": "front_mask",
+   "none": 28.6,
+   "medium": 40.0,
+   "delta": 11.4,
+   "lo": 6.8,
+   "hi": 16.0
+  },
+  {
+   "model": "gemini_2_5_flash",
+   "condition": "rgb_full",
+   "none": 50.6,
+   "medium": 54.4,
+   "delta": 3.8,
+   "lo": -0.4,
+   "hi": 8.0
+  },
+  {
+   "model": "gemini_2_5_flash",
+   "condition": "front_crop",
+   "none": 64.0,
+   "medium": 67.2,
+   "delta": 3.2,
+   "lo": -0.8,
+   "hi": 7.2
+  },
+  {
+   "model": "gemini_2_5_flash",
+   "condition": "front_mask",
+   "none": 25.2,
+   "medium": 32.0,
+   "delta": 6.8,
+   "lo": 2.2,
+   "hi": 11.4
+  }
+ ],
+ "paired": {
+  "gpt5_5__front_crop__medium vs siglip2_base__front_crop__none": {
+   "delta": 2.6,
+   "lo": -2.2,
+   "hi": 7.4
+  }
+ }
+}
