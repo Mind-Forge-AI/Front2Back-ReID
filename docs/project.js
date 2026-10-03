@@ -89,7 +89,7 @@ const modelLabel = key => (DATA.results.models.find(m => m.key === key) || DATA.
 const cellAcc = (key, cond, eff) => DATA.results.table[eff]?.[key]?.[cond];
 
 /* ------------------------------------------------------------ router */
-const VIEWS = ["overview", "results", "try", "explore", "dataset"];
+const VIEWS = ["overview", "results", "try", "explore"];
 let current = null;
 function route() {
   const raw = decodeURIComponent(location.hash.slice(1)) || "overview";
@@ -988,7 +988,6 @@ function initDataset() {
   if (c.dataset_sha256) m.append(h("br"), h("code", { text: c.dataset_sha256 }));
   if (c.license_text) $("#license-text").textContent = c.license_text;
   // hero "Dataset" button should go to the tab, not straight to a download
-  const heroBtn = $(".hero .dataset-link"); if (heroBtn) heroBtn.href = "#dataset";
   $("#copy-bib").addEventListener("click", async () => {
     try { await navigator.clipboard.writeText($("#bibtex").textContent); $("#copy-status").textContent = "Copied."; }
     catch { const r = document.createRange(); r.selectNodeContents($("#bibtex")); getSelection().removeAllRanges(); getSelection().addRange(r); $("#copy-status").textContent = "Selected. Press Ctrl+C to copy."; }
