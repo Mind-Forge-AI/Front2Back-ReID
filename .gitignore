@@ -1,8 +1,8 @@
 # datasets, runs and local builds
-data/
-runs/
-release/
-maintainer/
+/data/
+/runs/
+/release/
+/maintainer/
 *.zip
 # python
 __pycache__/
