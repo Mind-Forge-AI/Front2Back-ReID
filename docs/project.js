@@ -89,7 +89,7 @@ const modelLabel = key => (DATA.results.models.find(m => m.key === key) || DATA.
 const cellAcc = (key, cond, eff) => DATA.results.table[eff]?.[key]?.[cond];
 
 /* ------------------------------------------------------------ router */
-const VIEWS = ["overview", "try", "explore"];
+const VIEWS = ["overview", "results", "try", "explore", "dataset"];
 let current = null;
 function route() {
   const raw = decodeURIComponent(location.hash.slice(1)) || "overview";
@@ -106,11 +106,11 @@ function route() {
   for (const v of VIEWS) $(`#view-${v}`).hidden = v !== view;
   $$(".tabs a").forEach(a => (a.dataset.tab === view ? a.setAttribute("aria-current", "page") : a.removeAttribute("aria-current")));
   current = view;
-  document.title = view === "overview" ? "Front2Back-ReID" : `${$(`.tabs a[data-tab="${view}"]`)?.textContent || ""} · Front2Back-ReID`;
+  document.title = view === "overview" ? "Front2Back-ReID" : `${$(`.tabs a[data-tab="${view}"]`).textContent} · Front2Back-ReID`;
   if (anchor) requestAnimationFrame(() => anchor.scrollIntoView({ block: "start" }));
   else if (changed) window.scrollTo(0, 0);
   ready.then(() => {
-    if (view === "overview") drawResults();
+    if (view === "results") drawResults();
     if (view === "explore") Explore.open(arg);
   });
 }
@@ -124,7 +124,6 @@ function drawComposition() {
     ["Weather", t => t.tags.weather, [["overcast", "Overcast"], ["clear", "Clear"], ["sun_glare", "Sun glare"]]],
     ["Road context", t => t.tags.road, [["highway", "Highway"], ["urban", "Urban"], ["suburban", "Suburban"], ["construction_zone", "Construction"]]],
     ["Rear vehicles per pair, Vᵢ", t => t.tags.vi_bin, [["3", "3"], ["4-5", "4–5"], ["6+", "6 or more"]]],
-    ["Front-target occlusion", t => t.tags.front_occ, [["none", "None"], ["partial", "Partial"], ["heavy", "Heavy"]]],
   ];
   const box = $("#composition"); box.replaceChildren();
   for (const [title, f, cats] of groups) {
@@ -330,7 +329,11 @@ function strataPanels() {
   const cap = v => v.charAt(0).toUpperCase() + v.slice(1).replace("_", " ");
   return [
     { title: "Rear vehicles per pair, Vᵢ", data: S.difficulty.candidate_count_bin, human: hum("Rear-gallery size"), label: b => b },
+    { title: "Front-target range (median)", data: S.front_depth, label: b => b.replace(" m", "m") },
     { title: "Front-target scale", data: S.difficulty.front_target_bbox_size_bin, human: hum("Front-target scale"), label: cap },
+    { title: "Front-target occlusion", data: S.difficulty.front_target_occlusion_bin, human: hum("Front occlusion"), label: cap },
+    { title: "Weather", data: S.context.weather, label: cap },
+    { title: "Road context", data: S.context.road_context, label: cap },
     { title: "Rear-target scale", data: S.context.rear_target_bbox_size_bin, human: hum("Rear-target scale"), label: cap },
     { title: "Rear-target occlusion", data: S.context.rear_target_occlusion_bin, label: cap },
   ];
@@ -445,7 +448,7 @@ function drawLatency() {
 
 let resultsDrawn = false;
 function drawResults() {
-  drawLeaderboard(); drawStrata();
+  drawLeaderboard(); drawAblation(); drawReasoning(); drawStrata(); drawParticipants(); drawLatency();
   $("#reasoning-note").textContent = reasoningMode === "none" ? "Paper Table 3" : "Paper Table 4 · Gemini 2.5 Pro added; Qwen, Llama and LLaVA weren’t run with reasoning";
   resultsDrawn = true;
 }
@@ -456,10 +459,10 @@ $$("#reasoning-seg button").forEach(b => b.addEventListener("click", () => {
 }));
 function redrawCharts() {
   if (!DATA.results) return;
-  if (current === "overview") drawResults(); else resultsDrawn = false;
+  if (current === "results") drawResults(); else resultsDrawn = false;
   if (current === "try" && Try.state?.done) Try.renderDone();
 }
-let rz; window.addEventListener("resize", () => { clearTimeout(rz); rz = setTimeout(() => { if (current === "overview") drawResults(); }, 150); });
+let rz; window.addEventListener("resize", () => { clearTimeout(rz); rz = setTimeout(() => { if (current === "results") drawResults(); }, 150); });
 
 /* ------------------------------------------------------------ shared: pair viewer */
 const BOX_PX = { label: 12.5, lh: 18, gap: 2 };
@@ -977,8 +980,16 @@ const Explore = {
 /* ------------------------------------------------------------ dataset tab */
 function initDataset() {
   const c = DATA.config;
-  if (c.dataset_url) $$(".dataset-link").forEach(a => { a.href = c.dataset_url; a.setAttribute("download", ""); });
-  $("#copy-bib")?.addEventListener("click", async () => {
+  $$(".dataset-link").forEach(a => { a.href = c.dataset_url || "#dataset"; });
+  $("#hero-dataset")?.setAttribute("href", "#dataset");
+  const meta = [c.dataset_version && `Version ${c.dataset_version}`, c.dataset_size && c.dataset_size, c.checksum_url && "SHA-256 below"].filter(Boolean);
+  const m = $("#download-meta"); m.replaceChildren(meta.join(" · "));
+  if (c.checksum_url) m.append(" ", h("a", { href: c.checksum_url, text: "Checksum file" }));
+  if (c.dataset_sha256) m.append(h("br"), h("code", { text: c.dataset_sha256 }));
+  if (c.license_text) $("#license-text").textContent = c.license_text;
+  // hero "Dataset" button should go to the tab, not straight to a download
+  const heroBtn = $(".hero .dataset-link"); if (heroBtn) heroBtn.href = "#dataset";
+  $("#copy-bib").addEventListener("click", async () => {
     try { await navigator.clipboard.writeText($("#bibtex").textContent); $("#copy-status").textContent = "Copied."; }
     catch { const r = document.createRange(); r.selectNodeContents($("#bibtex")); getSelection().removeAllRanges(); getSelection().addRange(r); $("#copy-status").textContent = "Selected. Press Ctrl+C to copy."; }
   });
@@ -1004,10 +1015,11 @@ function initLightbox() {
 Try.init();
 initLightbox();
 route();
-ready.then(() => { initDataset(); if (current === "overview") drawResults(); })
+ready.then(() => { drawComposition(); initDataset(); if (current === "results") drawResults(); })
   .catch(err => {
     console.error(err);
     const msg = h("p", { class: "note-box", text: "Couldn’t load the benchmark data. If you opened this file directly, serve the folder over HTTP instead (python -m http.server)." });
+    $("#composition").replaceChildren(msg.cloneNode(true));
     $("#try-setup .setup").append(msg);
   });
 })();
