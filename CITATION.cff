@@ -1,14 +1,34 @@
 cff-version: 1.2.0
-message: "If you use AsymOvertake-ReID, please cite the paper and repository."
-title: "AsymOvertake-ReID: Low-Resource Asymmetric Vehicle Re-Identification and Spatial Reasoning"
+message: "If you use Front2Back-ReID, please cite the paper below."
+title: "Front2Back-ReID: Asymmetric Front-to-Rear Vehicle Re-Identification Benchmark"
+type: dataset
+version: 1.1.0
+date-released: 2026-10-03
+repository-code: "https://github.com/Mind-Forge-AI/Front2Back-ReID"
+url: "https://mind-forge-ai.github.io/Front2Back-ReID/"
 authors:
-  - family-names: Motsoehli
+  - family-names: "Mots'oehli"
     given-names: Moseli
-version: 0.4.0
-license: MIT
+    affiliation: "MindForge AI; University of Hawai'i at Mānoa"
+  - family-names: Babeli
+    given-names: Thulani
+    affiliation: "MindForge AI"
 keywords:
   - vehicle re-identification
-  - foundation models
-  - spatial reasoning
-  - stereo depth
-  - low-resource ADAS
+  - cross-view matching
+  - vision-language models
+  - benchmark
+  - autonomous driving
+  - South Africa
+preferred-citation:
+  type: article
+  title: "Front-to-Back: Benchmarking Vision-Language Models for Asymmetric Cross-View Vehicle Re-Identification"
+  authors:
+    - family-names: "Mots'oehli"
+      given-names: Moseli
+    - family-names: Babeli
+      given-names: Thulani
+  year: 2026
+  journal: "arXiv preprint arXiv:2609.39492"
+  doi: "10.48550/arXiv.2609.39492"
+  url: "https://arxiv.org/abs/2609.39492"

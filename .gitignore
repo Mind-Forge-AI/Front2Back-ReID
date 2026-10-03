@@ -144,7 +144,7 @@ venv.bak/
 .ropeproject
 
 # mkdocs documentation
-/site
+# /site  (disabled: site/ holds the project-page data and must be published)
 
 # mypy
 .mypy_cache/
@@ -179,3 +179,7 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Front2Back-ReID release archives and local test bundles
+release/
+site/_testbundle.zip
