@@ -474,3 +474,11 @@ body.no-scroll{overflow:hidden}
 .cases{grid-template-columns:1fr 1fr}
 .cases .case:first-child{grid-column:1/-1}
 @media (max-width:860px){.cases{grid-template-columns:1fr}}
+
+.btn-red{background:#b31b1b;border-color:#b31b1b;color:#fff}
+.btn-red:hover{background:#9c1414;border-color:#9c1414}
+.btn-red .arxiv-mark{background:rgba(255,255,255,.14);border-color:rgba(255,255,255,.35);color:#fff}
+.btn-red .arxiv-mark b{color:#fff !important}
+.btn-green{background:#1a7f37;border-color:#1a7f37;color:#fff}
+.btn-green:hover{background:#156d2e;border-color:#156d2e}
+.btn-green svg{stroke:#fff}
