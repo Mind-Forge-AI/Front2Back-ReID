@@ -1,5 +1,7 @@
 # Publish the Front2Back-ReID project page
 
+> **v1.1 (October 2026).** This repository root is now the public release. Steps 1–2 below describe the original v1 copy and are already done. The v1.1 ZIP and its `.sha256` are in `release/` (ignored by Git). Upload those in Step 3, then update `site-config.json` in Step 4.
+
 There are two public pieces, with different jobs:
 
 | Location | What it is for |
@@ -47,8 +49,8 @@ Front2Back-ReID/
 
 Upload these two files to Google Drive or Google Cloud Storage:
 
-- `export/front2back-reid-public-v1.zip`
-- `export/front2back-reid-public-v1.zip.sha256`
+- `release/front2back-reid-v1.1.zip`
+- `release/front2back-reid-v1.1.zip.sha256`
 
 **Google Cloud Storage is recommended** because it gives stable direct HTTPS links.
 Make both objects publicly readable and copy their URLs.
@@ -63,8 +65,8 @@ In the new GitHub repository, open `site-config.json` and replace the placeholde
 
 ```json
 {
-  "dataset_url": "https://YOUR-HOST/front2back-reid-public-v1.zip",
-  "checksum_url": "https://YOUR-HOST/front2back-reid-public-v1.zip.sha256"
+  "dataset_url": "https://YOUR-HOST/front2back-reid-v1.1.zip",
+  "checksum_url": "https://YOUR-HOST/front2back-reid-v1.1.zip.sha256"
 }
 ```
 
@@ -94,7 +96,7 @@ Open the Pages URL in a private browser window. Check that:
 Finally, verify the ZIP you downloaded:
 
 ```powershell
-Get-FileHash .\front2back-reid-public-v1.zip -Algorithm SHA256
+Get-FileHash .\front2back-reid-v1.1.zip -Algorithm SHA256
 ```
 
-Its value must match the text in `front2back-reid-public-v1.zip.sha256`.
+Its value must match the text in `front2back-reid-v1.1.zip.sha256`.
