@@ -1,11 +1,12 @@
 cff-version: 1.2.0
 message: "If you use Front2Back-ReID, please cite the paper below."
-title: "Front2Back-ReID: Asymmetric Front-to-Rear Vehicle Re-Identification Benchmark"
-type: dataset
+title: "Front2Back-ReID: benchmark and evaluation code"
+type: software
 version: 1.1.0
 date-released: 2026-10-03
 repository-code: "https://github.com/Mind-Forge-AI/Front2Back-ReID"
 url: "https://mind-forge-ai.github.io/Front2Back-ReID/"
+license: MIT
 authors:
   - family-names: "Mots'oehli"
     given-names: Moseli
@@ -13,13 +14,6 @@ authors:
   - family-names: Babeli
     given-names: Thulani
     affiliation: "MindForge AI"
-keywords:
-  - vehicle re-identification
-  - cross-view matching
-  - vision-language models
-  - benchmark
-  - autonomous driving
-  - South Africa
 preferred-citation:
   type: article
   title: "Front-to-Back: Benchmarking Vision-Language Models for Asymmetric Cross-View Vehicle Re-Identification"

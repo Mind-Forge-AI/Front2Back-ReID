@@ -1,0 +1,10 @@
+# core: loading, scoring, BCa intervals, model-input rendering, API runners
+numpy>=1.24
+pillow>=10.0
+scipy>=1.11
+# baselines (HSV, DINOv2, SigLIP2) and local LLaVA-OneVision
+opencv-python-headless>=4.8
+torch>=2.2
+torchvision>=0.17
+transformers>=4.49
+accelerate>=1.0

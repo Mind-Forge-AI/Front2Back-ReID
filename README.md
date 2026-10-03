@@ -1,161 +1,113 @@
-# Front2Back-ReID
+<p align="center"><img src="docs/site/img/mindforge-logo-192.png" height="72" alt="MindForge AI"></p>
 
-**Front-to-Back: Benchmarking Vision-Language Models for Asymmetric Cross-View Vehicle Re-Identification**
-Moseli Mots'oehli¹˒², Thulani Babeli¹ · ¹MindForge AI, Johannesburg · ²University of Hawai'i at Mānoa
-[Paper (arXiv:2609.39492)](https://arxiv.org/abs/2609.39492) · [Project page](https://mind-forge-ai.github.io/Front2Back-ReID/) · [Code and data](https://github.com/Mind-Forge-AI/Front2Back-ReID)
+<h1 align="center">Front-to-Back: Benchmarking Vision-Language Models for<br>Asymmetric Cross-View Vehicle Re-Identification</h1>
 
-A vehicle seen ahead in a car's **front-left** camera later appears in its **rear-left** camera, seen from the other side. Your matcher gets one highlighted front target and a closed gallery of labelled rear candidates (C1, C2, …, at least three), and must name the one that's the same vehicle. The benchmark has 500 manually verified handovers from 20 recordings on South African roads.
+<p align="center">
+Moseli Mots'oehli<sup>1,2</sup> · Thulani Babeli<sup>1</sup><br>
+<sup>1</sup>MindForge AI, Johannesburg · <sup>2</sup>University of Hawai'i at Mānoa<br>
+ACCV 2026 Workshop CV4DC (under review)
+</p>
 
-| Rank-1 accuracy (%) | Full RGB | Target crop | Silhouette |
-| --- | --- | --- | --- |
-| Human participants (n = 25) | **94.0** | **92.2** | – |
-| GPT-5.5, medium reasoning (best VLM) | 62.8 | 76.6 | 43.8 |
+<p align="center">
+<a href="https://arxiv.org/abs/2609.39492">Paper</a> ·
+<a href="https://mind-forge-ai.github.io/Front2Back-ReID/">Project page</a> ·
+<a href="https://mind-forge-ai.github.io/Front2Back-ReID/#try">Try the task</a> ·
+<a href="#data">Dataset</a>
+</p>
+
+A vehicle seen in a car's **front-left** camera later appears in its **rear-left** camera, seen from the other side. Given the highlighted front target and a closed gallery of labelled rear candidates, pick the same vehicle. **Front2Back-ReID** has 500 manually verified handovers from 20 recordings on South African roads. This repository has the code to load the benchmark, run the paper's baselines and VLMs, and rebuild its tables.
+
+| Rank-1 (%) | Full RGB | Target crop | Silhouette |
+|---|---|---|---|
+| Humans (n = 25) | **94.0** | **92.2** | – |
+| GPT-5.5, medium reasoning | 62.8 | 76.6 | 43.8 |
 | SigLIP2 Base, frozen | – | 74.0 | – |
-| Random gallery | – | 17.8 | – |
+| Random | – | 17.8 | – |
 
-The paper and the project page's Results tab cover all seven VLMs, four retrieval controls, 95% BCa intervals and the difficulty breakdowns.
-
----
-
-## 1. Get the data (5 minutes)
+## Setup
 
 ```bash
-# 1. Download front2back-reid-v1.1.zip from the project page and unzip it
-# 2. Check the download (needs Pillow only)
-python -m pip install Pillow
-python verify.py
-#   PASS: 500 pairs, answers, media files, and checksums verified.
+git clone https://github.com/Mind-Forge-AI/Front2Back-ReID.git && cd Front2Back-ReID
+pip install -e .                    # core: loader, scoring, BCa, API runners
+pip install -e ".[baselines]"       # + HSV, DINOv2, SigLIP2
+pip install -e ".[local]"           # + local LLaVA-OneVision
 ```
 
-To check the ZIP itself before unzipping, compare its SHA-256 with the published `front2back-reid-v1.1.zip.sha256`:
+<a id="data"></a>
+## Data
 
 ```bash
-sha256sum front2back-reid-v1.1.zip                                   # Linux
-shasum -a 256 front2back-reid-v1.1.zip                               # macOS
-Get-FileHash .\front2back-reid-v1.1.zip -Algorithm SHA256            # Windows PowerShell
+python scripts/download_data.py                  # -> data/front2back-reid-v1.1/
+python data/front2back-reid-v1.1/verify.py       # checks hashes, images and answers
 ```
 
-To browse the pairs, run `python -m http.server 8000` in the unzipped folder and open <http://localhost:8000/#explore>. Opening `index.html` directly as a file won't load the data.
-
-## 2. What's in the folder
-
-```text
-front2back-reid-v1.1/
-├── annotations/
-│   ├── pairs.jsonl          ← the task: one pair per line (model-safe, no answers)
-│   ├── pairs.csv            ← same content as CSV
-│   ├── ground_truth.jsonl   ← answers (keep out of prompts)
-│   └── ground_truth.csv
-├── splits/test500.txt       ← the fixed evaluation order (P0001 … P0500)
-├── data/
-│   ├── camera_splits/<sequence>/FL|RL/*.jpg   ← original front-left / rear-left frames (640×360)
-│   └── object_detections/<sequence>/masks/FL/*.png ← front-target masks
-├── inputs/P0001 … P0500/
-│   ├── front_marked.jpg     ← full front frame with the target boxed  (Full RGB condition)
-│   ├── front_crop.jpg       ← padded crop of the target               (Target crop condition)
-│   └── rear_marked.jpg      ← rear frame with labelled candidate boxes (the gallery)
-├── site/silhouettes/P0001.png …  ← black-on-white target silhouettes (Silhouette condition)
-├── evaluate.py  verify.py  checksums.sha256  dataset_stats.json
-└── index.html  project.css  project.js  site/   ← the project page (works offline)
-```
-
-There are 844 unique frames: 427 front and 417 rear. Images are reused across pairs, so 500 pairs doesn't mean 1,000 images.
-
-## 3. One record
-
-Each line of `annotations/pairs.jsonl` is one task:
-
-```json
-{
-  "pair_id": "P0001",
-  "road_context": "highway", "time_of_day": "dawn_dusk", "weather": "clear",
-  "front": {
-    "image": "data/camera_splits/2026_02_09_18_53_11_b5329d02/FL/fl_000915.jpg",
-    "width": 640, "height": 360,
-    "target_bbox_xyxy": [413.662, 237.403, 494.269, 275.918],
-    "target_mask": "data/object_detections/.../FL/..._fl_truck_001.png"
-  },
-  "rear": {
-    "image": "data/camera_splits/2026_02_09_18_53_11_b5329d02/RL/rl_000926.jpg",
-    "width": 640, "height": 360,
-    "candidates": [
-      {"candidate_id": "C1", "bbox_xyxy": [0.0, 114.154, 82.707, 191.047]},
-      {"candidate_id": "C2", "bbox_xyxy": [204.577, 160.221, 228.088, 174.155]}
-    ]
-  },
-  "inputs": {
-    "front_marked": "inputs/P0001/front_marked.jpg",
-    "rear_marked": "inputs/P0001/rear_marked.jpg",
-    "front_crop": "inputs/P0001/front_crop.jpg"
-  }
-}
-```
-
-- **Boxes** are pixel `[x1, y1, x2, y2]` in the 640×360 frame, with the origin at top-left. All paths are relative to the dataset root.
-- **Candidates** are listed in a frozen order (ascending x1, then y1). The aliases `C1…CK` are the only identifiers to show a model. Detector classes aren't included, on purpose.
-- **Masks** are full-frame 8-bit PNGs, with white (255) for the target and black elsewhere. `site/silhouettes/` holds the paper's silhouette input: the mask cropped with the same window as `front_crop.jpg`, black target on white.
-- **`ground_truth.jsonl`** has `{"pair_id", "correct_candidate_id", "correct_detection_id"}`. Use it only to score.
-
-## 4. Run a model (minimal Python)
+If the download link opens a web page, download the ZIP in a browser and run `python scripts/download_data.py --zip <file>`. The release README describes the file layout and record format.
 
 ```python
-import json
-from pathlib import Path
-from PIL import Image
-
-ROOT = Path("front2back-reid-v1.1")
-pairs = [json.loads(l) for l in (ROOT / "annotations/pairs.jsonl").read_text().splitlines()]
-
-CONDITION = "front_crop"          # "rgb_full" | "front_crop" | "front_mask"
-
-def front_input(p):
-    if CONDITION == "rgb_full":
-        return Image.open(ROOT / p["inputs"]["front_marked"])
-    if CONDITION == "front_crop":
-        return Image.open(ROOT / p["inputs"]["front_crop"])
-    return Image.open(ROOT / f"site/silhouettes/{p['pair_id']}.png")
-
-with open("predictions.jsonl", "w") as out:
-    for p in pairs:
-        front = front_input(p)
-        rear = Image.open(ROOT / p["inputs"]["rear_marked"])       # labelled gallery
-        aliases = [c["candidate_id"] for c in p["rear"]["candidates"]]
-        choice = my_matcher(front, rear, aliases)                   # ← your model; must return one alias
-        out.write(json.dumps({"pair_id": p["pair_id"], "candidate_id": choice}) + "\n")
+from front2back import Benchmark
+bench = Benchmark("data/front2back-reid-v1.1")
+pair = bench["P0001"]          # front image, target box + mask, rear image, candidates C1..CK
+pair.aliases, bench.answer("P0001")
 ```
 
-For a retrieval baseline, crop each candidate from `p["rear"]["image"]` with its `bbox_xyxy` and rank the crops by similarity to the front crop. That's how the paper's SigLIP2 and DINOv2 controls work.
+## Evaluate your method
 
-**Matching the paper's VLM protocol:** show only the evidence for one condition and the labelled rear gallery. Never give box coordinates, detector classes or confidences. Set temperature to 0 where the model allows it, and count unparseable outputs or unlisted aliases as wrong. The exact prompt is on the project page (Overview, "Show the full prompt") and in Fig. 6 of the paper.
-
-## 5. Score
+Write one `{"pair_id": "P0001", "candidate_id": "C2"}` per line, then:
 
 ```bash
-python evaluate.py predictions.jsonl                       # Rank-1 accuracy
-python evaluate.py predictions.jsonl --ci                  # + 95% percentile-bootstrap interval
-python evaluate.py predictions.jsonl --per-pair hits.csv   # per-pair correctness for your own analysis
+python scripts/evaluate.py --data data/front2back-reid-v1.1 predictions.jsonl
 ```
 
-```json
-{"pairs": 500, "submitted": 500, "missing": 0, "correct": 383, "top1_accuracy": 0.766}
+This reports Rank-1 over all 500 pairs with a 95% BCa interval. Missing pairs count as wrong, and unknown or invalid aliases are rejected.
+
+## Reproduce the paper
+
+**Baselines** (no API keys needed):
+
+```bash
+python scripts/run_baselines.py --data data/front2back-reid-v1.1 --baseline all
 ```
 
-The primary metric is **Rank-1 (top-1) accuracy over all 500 pairs**. Chance is 1/Kᵢ per pair, about 17% overall. Missing pairs count as wrong. Unknown pair IDs, duplicates and aliases that aren't in that pair's gallery stop the script with an error, so a typo can't silently cost points. The paper's intervals are BCa with 100,000 resamples, so `--ci` (percentile) may differ by a few tenths of a point.
+**VLMs** use the paper's protocol, implemented in `front2back/vlm.py`:
 
-## 6. Things that trip people up
+- **Images:** one request per pair. It sends the front evidence, then the labelled rear gallery, rendered exactly as in the paper's runs (`front2back/render.py`).
+- **Prompt:** the v3 prompt (`front2back/prompts.py`).
+- **Settings:** temperature 0, and reasoning `none` or `medium` where a model supports it.
 
-- **There's no train/validation split.** All 500 pairs are the test set. Frames and targets repeat across pairs, so a random split isn't identity-disjoint. Report zero-shot results, or hold out whole recordings and say so.
-- **Gallery size isn't the same as vehicle count.** `Kᵢ` (candidates shown) includes non-vehicle road users such as pedestrians. The paper's difficulty plots use the vehicle-only count `Vᵢ`. The two differ on 164 pairs, and both distributions are in `dataset_stats.json`.
-- **Overlays are regenerated.** `inputs/` images were re-rendered from the recovered boxes, so their styling can differ slightly from the renderer used in the paper. Pixels, boxes and identities are the same.
-- **Daytime dominates.** 97.6% of pairs are daytime, and front-target stereo depth (analysis only) is valid for 341 pairs.
+```bash
+export OPENAI_API_KEY=...  GEMINI_API_KEY=...  GROQ_API_KEY=...
+python scripts/run_vlm.py --data data/front2back-reid-v1.1 --model gpt5_5 --all          # every cell for one model
+python scripts/run_vlm.py --data data/front2back-reid-v1.1 --model gpt5_5 \
+       --condition rgb_full --dry-run P0001                                               # inspect one request
+```
 
-## 7. Integrity
+Models: `gpt5_5`, `gpt5_4_mini`, `gemini_2_5_pro`, `gemini_2_5_flash`, `qwen3_6_27b_groq`, `llama4_scout_groq`, `llava_onevision_0_5b`. Runs resume automatically, and provider errors are retried. Only complete 500-pair runs are scored, as in the paper. Hosted models change over time, so expect small differences from the paper's June–July 2026 runs.
 
-`checksums.sha256` lists a SHA-256 for every file in the release. `verify.py` checks those hashes plus every image, mask, box, candidate label, answer and the fixed split.
+**Tables 3–4.** Rank-1, 95% BCa intervals, the context gap and paired reasoning gains, each checked against the paper:
 
-## 8. Project-page files (optional)
+```bash
+python scripts/make_tables.py --data data/front2back-reid-v1.1 --runs runs
+```
 
-`index.html` is the project page, and it works offline from a local server. `site/data/` holds the paper results and per-pair metadata it reads, `site/img/` holds the paper figures, and `site/tools/` rebuilds those files from the research repository. `site/tools/extract_model_picks.py` exports each paper run's per-pair answers so the page can show model picks. To turn that on, set `model_picks_url` in `site-config.json`.
+Point estimates reproduce exactly. For example, Random is 17.8 and HSV is 47.6. BCa bounds can differ from the paper by about 0.2 points, which is one pair, because the original bootstrap stream wasn't archived.
+
+## Repository layout
+
+```text
+front2back/            Python package
+  data.py              release loader (Benchmark, Pair)
+  render.py            model inputs exactly as evaluated
+  prompts.py           v3 prompt + output contract
+  vlm.py               model registry and request settings
+  providers/           OpenAI, Gemini, Groq, local LLaVA-OneVision
+  baselines.py         random, HSV histogram, DINOv2, SigLIP2
+  scoring.py stats.py  Rank-1, BCa and paired BCa intervals
+scripts/               download_data, evaluate, run_baselines, run_vlm, make_tables
+release_files/         README, evaluate.py and verify.py shipped inside the dataset ZIP
+tools/build_release.py builds the dataset ZIP (maintainers)
+tests/                 pytest (set FRONT2BACK_DATA to the release folder)
+docs/                  project page (GitHub Pages)
+```
 
 ## Citation
 
@@ -172,9 +124,4 @@ The primary metric is **Rank-1 (top-1) accuracy over all 500 pairs**. Chance is 
 }
 ```
 
-See also `CITATION.cff`. Code and tools are under the MIT License (`LICENSE`). For questions about the data, open an issue on GitHub.
-
-## Changelog
-
-- **v1.1 (2026-10-03):** new project page (results, Try the task, explorer), silhouette inputs, `evaluate.py --ci/--per-pair`, citation for arXiv:2609.39492 and an expanded README. The benchmark pairs, galleries and answers are unchanged from v1.
-- **v1 (2026-09):** first public release of the 500 restored pairs.
+Code is released under the MIT License (`LICENSE`). We thank the 25 participants in the human evaluation and Dalitso Chomey for valuable discussions.
